@@ -1,0 +1,59 @@
+run airdrop tasks
+============================== taskset in cpu: (0) ==============================
+Creating 100001 accounts and 600006 gas objects
+Initializing validator
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 1231214, tv_nsec: 480733032 }
+End executing tx, time: Instant { tv_sec: 1231285, tv_nsec: 341314104 }
+Execution finished in 70.86s, TPS=1411
+
+
+============================== taskset in cpu: (0,2) ==============================
+Creating 100001 accounts and 600006 gas objects
+Initializing validator
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 1231307, tv_nsec: 409037338 }
+End executing tx, time: Instant { tv_sec: 1231343, tv_nsec: 374614600 }
+Execution finished in 35.965s, TPS=2780
+
+
+============================== taskset in cpu: (0,2,4,6) ==============================
+Creating 100001 accounts and 600006 gas objects
+Initializing validator
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 1231357, tv_nsec: 941341811 }
+End executing tx, time: Instant { tv_sec: 1231376, tv_nsec: 362918427 }
+Execution finished in 18.421s, TPS=5429
+
+
+============================== taskset in cpu: (0,2,4,6,8,10,12,14) ==============================
+Creating 100001 accounts and 600006 gas objects
+Initializing validator
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 1231387, tv_nsec: 465071762 }
+End executing tx, time: Instant { tv_sec: 1231396, tv_nsec: 976125751 }
+Execution finished in 9.511s, TPS=10514
+
+
+============================== taskset in cpu: (0,2,4,6,8,10,12,14,16,17,18,19,20,21,22,23) ==============================
+Creating 100001 accounts and 600006 gas objects
+Initializing validator
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 1231406, tv_nsec: 987303548 }
+End executing tx, time: Instant { tv_sec: 1231413, tv_nsec: 74904724 }
+Execution finished in 6.087s, TPS=16428
+
+
+============================== finalize ==============================
+parallel execution tps: [1411,2780,5429,10514,16428]
+speed up: [1.00,1.97,3.84,7.45,11.64]

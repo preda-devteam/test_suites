@@ -1,0 +1,21 @@
+// SPDX-License-Identifier: MIT
+contract MP {
+	struct Land {
+		bool flag;
+		address owner;
+	}
+
+	@uint32 Land land;
+	
+	@address function occupy(uint16 x, uint16 y) export{
+		uint32 index = uint32(x) * 65536u32 + uint32(y);
+		relay@index (auto sender = __transaction.get_sender()){
+			if(true == land.flag){
+				return;
+			}
+			land.flag = true;
+			land.owner = sender;
+		}
+	}
+
+}

@@ -1,0 +1,53 @@
+contract ERC20 {
+    @address uint256 balance;
+    
+    @address function bool transfer(address to, uint256 amount) export
+    {
+        if(balance >= amount)
+        {
+            balance -= amount;
+            relay@to (^amount)
+            {
+                balance += amount;
+            }
+            return true;
+        }
+        return false;
+    }
+
+    @address function mint(uint256 value) export {
+        __debug.assert(value >= 0u256);
+        balance += value;
+    }
+
+    struct payment
+    {
+        address     to;
+        uint256     amount;
+    }
+
+    @address function bool transfer_n(array<payment> recipients) export 
+	{
+        uint256 total = 0u256;
+        for (uint32 i = 0u; i<recipients.length(); i++)
+        {
+            __debug.assert(recipients[i].amount >= 0u256);
+            total += recipients[i].amount;
+        }
+        if(total <= balance)
+        {
+			balance -= total;
+            for (uint32 i = 0u32; i<recipients.length(); i++)
+            {
+                if(recipients[i].amount>0u256)
+                {
+                    relay@recipients[i].to (uint256 amount = recipients[i].amount){
+                        balance += amount;
+                    }
+                }                  
+            }
+            return true;
+        }
+        return false;
+    }
+}

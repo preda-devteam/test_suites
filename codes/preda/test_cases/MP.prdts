@@ -1,0 +1,15 @@
+random.reseed
+
+allocate.address $~count$
+
+chain.gaslimit 100000000
+
+chain.deploy @1 MP.prd
+
+MP.occupy @all {x: $random(0, 999)$, y: $random(0, 99)$}
+
+chain.info
+
+stopwatch.restart
+chain.run
+stopwatch.report
