@@ -1,0 +1,1 @@
+[{"inputs":[{"internalType":"address","name":"sender","type":"address"},{"internalType":"uint16","name":"x","type":"uint16"},{"internalType":"uint16","name":"y","type":"uint16"}],"name":"occupy","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"}]

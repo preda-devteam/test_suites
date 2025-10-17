@@ -1,0 +1,46 @@
+run AirDrop task
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 23.618 seconds
+TPS: 4234
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 11.687 seconds
+TPS: 8557
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 5.903 seconds
+TPS: 16940
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 3.132 seconds
+TPS: 31928
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 1.605 seconds
+TPS: 62311
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 0.886 seconds
+TPS: 112919
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 0.720 seconds
+TPS: 138971
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 0.704 seconds
+TPS: 141970
+========================
+
+
+============================== finalize ==============================
+parallel execution tps: [4234,8557,16940,31928,62311,112919,138971,141970]
+speed up: [1.00,2.02,4.00,7.54,14.71,26.66,32.82,33.53]

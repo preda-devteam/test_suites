@@ -1,0 +1,41 @@
+run Kitty task
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 73.009 seconds
+TPS: 1370
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 36.669 seconds
+TPS: 2727
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 18.473 seconds
+TPS: 5413
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 9.193 seconds
+TPS: 10878
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 4.995 seconds
+TPS: 20021
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 2.413 seconds
+TPS: 41438
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 1.288 seconds
+TPS: 77662
+========================
+
+
+============================== finalize ==============================
+parallel execution tps: [1370,2727,5413,10878,20021,41438,77662]
+speed up: [1.00,1.99,3.95,7.94,14.61,30.24,56.68]

@@ -1,0 +1,14 @@
+chain.init
+
+chain.deploy ERC20.sol
+
+addr[] = evmc::address[100000]
+ERC20.mint @addr.all (100000000000000000000000000000000)
+chain.run
+
+// history
+ERC20 << ETH_2401_100000.csv
+
+stopwatch.restart
+chain.run
+stopwatch.report

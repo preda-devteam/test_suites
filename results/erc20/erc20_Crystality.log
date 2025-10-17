@@ -1,0 +1,41 @@
+run ERC20 task
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 9.292 seconds
+TPS: 10762
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 4.651 seconds
+TPS: 21501
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 2.592 seconds
+TPS: 38581
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 1.326 seconds
+TPS: 75418
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 0.638 seconds
+TPS: 156671
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 0.345 seconds
+TPS: 289859
+========================
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 0.250 seconds
+TPS: 399973
+========================
+
+
+============================== finalize ==============================
+parallel execution tps: [10762,21501,38581,75418,156671,289859,399973]
+speed up: [1.00,1.99,3.58,7.00,14.55,26.93,37.16]

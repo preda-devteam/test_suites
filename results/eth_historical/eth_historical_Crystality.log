@@ -1,0 +1,62 @@
+run ERC20_history task
+
+Txn FromCSV Count: 100000
+
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 9.273 seconds
+TPS: 10784
+========================
+
+Txn FromCSV Count: 100000
+
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 4.788 seconds
+TPS: 20884
+========================
+
+Txn FromCSV Count: 100000
+
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 2.488 seconds
+TPS: 40188
+========================
+
+Txn FromCSV Count: 100000
+
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 1.413 seconds
+TPS: 70789
+========================
+
+Txn FromCSV Count: 100000
+
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 0.892 seconds
+TPS: 112097
+========================
+
+Txn FromCSV Count: 100000
+
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 0.499 seconds
+TPS: 200587
+========================
+
+Txn FromCSV Count: 100000
+
+=== Stopwatch Report ===
+Transactions processed: 100000
+Elapsed time: 0.353 seconds
+TPS: 283556
+========================
+
+
+============================== finalize ==============================
+parallel execution tps: [10784,20884,40188,70789,112097,200587,283556]
+speed up: [1.00,1.93,3.72,6.56,10.39,18.60,26.29]

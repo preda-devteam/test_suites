@@ -1,0 +1,15 @@
+chain.init
+
+chain.deploy ERC20.sol
+
+addr[] = evmc::address[10000]
+
+ERC20._deposit @addr.all (10000000)
+chain.run
+
+count = 100000
+ERC20.transfer * count @addr.random (addr.random, uint32.random(1000, 2000))
+
+stopwatch.restart
+chain.run
+stopwatch.report

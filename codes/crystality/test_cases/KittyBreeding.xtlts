@@ -1,0 +1,17 @@
+chain.init
+
+addr[] = evmc::address[1000]
+
+chain.deploy KittyBreeding.sol
+
+KittyBreeding.mint @addr.all (uint32.random, true)
+chain.run
+KittyBreeding.mint @addr.all (uint32.random, false)
+chain.run
+
+count = 100000
+
+KittyBreeding.breed * count @addr.random (uint32.random(0, 999), uint32.random(1000, 1999), false)
+stopwatch.restart
+chain.run
+stopwatch.report

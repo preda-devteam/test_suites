@@ -1,0 +1,41 @@
+run Ballot task
+=== Stopwatch Report ===
+Transactions processed: 1000000
+Elapsed time: 69.962 seconds
+TPS: 14294
+========================
+=== Stopwatch Report ===
+Transactions processed: 1000000
+Elapsed time: 35.019 seconds
+TPS: 28556
+========================
+=== Stopwatch Report ===
+Transactions processed: 1000000
+Elapsed time: 17.450 seconds
+TPS: 57305
+========================
+=== Stopwatch Report ===
+Transactions processed: 1000000
+Elapsed time: 8.765 seconds
+TPS: 114091
+========================
+=== Stopwatch Report ===
+Transactions processed: 1000000
+Elapsed time: 4.404 seconds
+TPS: 227060
+========================
+=== Stopwatch Report ===
+Transactions processed: 1000000
+Elapsed time: 2.477 seconds
+TPS: 403685
+========================
+=== Stopwatch Report ===
+Transactions processed: 1000000
+Elapsed time: 1.420 seconds
+TPS: 704059
+========================
+
+
+============================== finalize ==============================
+parallel execution tps: [14294,28556,57305,114091,227060,403685,704059]
+speed up: [1.00,1.99,4.00,7.98,15.88,28.24,49.25]

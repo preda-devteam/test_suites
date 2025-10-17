@@ -1,0 +1,41 @@
+run Million_Pixel task
+=== Stopwatch Report ===
+Transactions processed: 1000000
+Elapsed time: 56.717 seconds
+TPS: 17632
+========================
+=== Stopwatch Report ===
+Transactions processed: 1000000
+Elapsed time: 28.619 seconds
+TPS: 34941
+========================
+=== Stopwatch Report ===
+Transactions processed: 1000000
+Elapsed time: 14.405 seconds
+TPS: 69423
+========================
+=== Stopwatch Report ===
+Transactions processed: 1000000
+Elapsed time: 7.915 seconds
+TPS: 126342
+========================
+=== Stopwatch Report ===
+Transactions processed: 1000000
+Elapsed time: 3.781 seconds
+TPS: 264467
+========================
+=== Stopwatch Report ===
+Transactions processed: 1000000
+Elapsed time: 2.159 seconds
+TPS: 463187
+========================
+=== Stopwatch Report ===
+Transactions processed: 1000000
+Elapsed time: 1.473 seconds
+TPS: 678877
+========================
+
+
+============================== finalize ==============================
+parallel execution tps: [17632,34941,69423,126342,264467,463187,678877]
+speed up: [1.00,1.98,3.93,7.16,14.99,26.26,38.50]

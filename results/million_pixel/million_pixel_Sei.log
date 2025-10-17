@@ -1,0 +1,109 @@
+run million_pixel tasks
+============================== taskset in cpu: (0) ==============================
+parallel units:  1
+deploy million_pixel contract finished, address:  0x3e0Cd9438D663D72718DA8da45091C09A5f456A9
+tasks: 1000 elapse: 3.5939595349999998  parallel tps:  278
+tasks: 1000 elapse: 2.041236782  parallel tps:  489
+tasks: 1000 elapse: 2.036083393  parallel tps:  491
+tasks: 1000 elapse: 2.00181419  parallel tps:  499
+tasks: 1000 elapse: 2.03329968  parallel tps:  491
+tasks: 1000 elapse: 1.99011591  parallel tps:  502
+tasks: 1000 elapse: 2.00305822  parallel tps:  499
+tasks: 1000 elapse: 1.955073519  parallel tps:  511
+tasks: 1000 elapse: 1.9702921500000001  parallel tps:  507
+tasks: 1000 elapse: 2.021816088  parallel tps:  494
+
+
+============================== taskset in cpu: (0,1) ==============================
+parallel units:  2
+deploy million_pixel contract finished, address:  0x6296C4Bc5947CB6FED4BFC4CcAC238c896D25f7E
+tasks: 1000 elapse: 1.834394776  parallel tps:  545
+tasks: 1000 elapse: 1.038589485  parallel tps:  962
+tasks: 1000 elapse: 1.073388364  parallel tps:  931
+tasks: 1000 elapse: 1.042454119  parallel tps:  959
+tasks: 1000 elapse: 0.997278459  parallel tps:  1002
+tasks: 1000 elapse: 1.033452026  parallel tps:  967
+tasks: 1000 elapse: 1.00793983  parallel tps:  992
+tasks: 1000 elapse: 1.030972941  parallel tps:  969
+tasks: 1000 elapse: 1.070696735  parallel tps:  933
+tasks: 1000 elapse: 1.008454087  parallel tps:  991
+
+
+============================== taskset in cpu: (0,1,2,3) ==============================
+parallel units:  4
+deploy million_pixel contract finished, address:  0x44Ba2b2e8985C95Bc7e76012C104fB242df92e88
+tasks: 1000 elapse: 0.927113752  parallel tps:  1078
+tasks: 1000 elapse: 0.523006791  parallel tps:  1912
+tasks: 1000 elapse: 0.533111269  parallel tps:  1875
+tasks: 1000 elapse: 0.549048548  parallel tps:  1821
+tasks: 1000 elapse: 0.515892609  parallel tps:  1938
+tasks: 1000 elapse: 0.516734567  parallel tps:  1935
+tasks: 1000 elapse: 0.522234005  parallel tps:  1914
+tasks: 1000 elapse: 0.521033466  parallel tps:  1919
+tasks: 1000 elapse: 0.519529952  parallel tps:  1924
+tasks: 1000 elapse: 0.51302224  parallel tps:  1949
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7) ==============================
+parallel units:  8
+deploy million_pixel contract finished, address:  0x4CE6322e59f80af6d4Fc5d5A594FE839cdA07aaf
+tasks: 1000 elapse: 0.54714773  parallel tps:  1827
+tasks: 1000 elapse: 0.314556545  parallel tps:  3179
+tasks: 1000 elapse: 0.323918003  parallel tps:  3087
+tasks: 1000 elapse: 0.318509408  parallel tps:  3139
+tasks: 1000 elapse: 0.322988288  parallel tps:  3096
+tasks: 1000 elapse: 0.344213323  parallel tps:  2905
+tasks: 1000 elapse: 0.359312512  parallel tps:  2783
+tasks: 1000 elapse: 0.300944429  parallel tps:  3322
+tasks: 1000 elapse: 0.309467526  parallel tps:  3231
+tasks: 1000 elapse: 0.30275165  parallel tps:  3303
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15) ==============================
+parallel units:  16
+deploy million_pixel contract finished, address:  0xad1537f39D2C9F08cdd94d69665205FAEc25081e
+tasks: 1000 elapse: 0.345667343  parallel tps:  2892
+tasks: 1000 elapse: 0.203591514  parallel tps:  4911
+tasks: 1000 elapse: 0.205221048  parallel tps:  4872
+tasks: 1000 elapse: 0.202745298  parallel tps:  4932
+tasks: 1000 elapse: 0.198851919  parallel tps:  5028
+tasks: 1000 elapse: 0.198902134  parallel tps:  5027
+tasks: 1000 elapse: 0.193243173  parallel tps:  5174
+tasks: 1000 elapse: 0.196383604  parallel tps:  5092
+tasks: 1000 elapse: 0.204173859  parallel tps:  4897
+tasks: 1000 elapse: 0.198649835  parallel tps:  5033
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31) ==============================
+parallel units:  32
+deploy million_pixel contract finished, address:  0x4e231B63222C991Ece0b95a18C082784Ec9b41eB
+tasks: 1000 elapse: 0.334912901  parallel tps:  2985
+tasks: 1000 elapse: 0.175252617  parallel tps:  5706
+tasks: 1000 elapse: 0.175499146  parallel tps:  5698
+tasks: 1000 elapse: 0.16324667  parallel tps:  6125
+tasks: 1000 elapse: 0.164262819  parallel tps:  6087
+tasks: 1000 elapse: 0.163486406  parallel tps:  6116
+tasks: 1000 elapse: 0.169320789  parallel tps:  5905
+tasks: 1000 elapse: 0.173489211  parallel tps:  5764
+tasks: 1000 elapse: 0.165462416  parallel tps:  6043
+tasks: 1000 elapse: 0.172480155  parallel tps:  5797
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63) ==============================
+parallel units:  64
+deploy million_pixel contract finished, address:  0xD3e29725933242ed068814BAf9b0A80389e267d8
+tasks: 1000 elapse: 0.421303349  parallel tps:  2373
+tasks: 1000 elapse: 0.225625364  parallel tps:  4432
+tasks: 1000 elapse: 0.260052648  parallel tps:  3845
+tasks: 1000 elapse: 0.250417058  parallel tps:  3993
+tasks: 1000 elapse: 0.238961276  parallel tps:  4184
+tasks: 1000 elapse: 0.234003336  parallel tps:  4273
+tasks: 1000 elapse: 0.215709314  parallel tps:  4635
+tasks: 1000 elapse: 0.21929548  parallel tps:  4560
+tasks: 1000 elapse: 0.234550204  parallel tps:  4263
+tasks: 1000 elapse: 0.213831452  parallel tps:  4676
+
+
+============================== finalize ==============================
+parallel execution tps: [496,964,1916,3117,4979,5851,4268]
+speed up: [1.00,1.94,3.86,6.28,10.03,11.79,8.60]

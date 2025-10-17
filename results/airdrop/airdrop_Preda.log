@@ -1,0 +1,248 @@
+run AirDrop task
+[0mPhysical CPU core: 128, Logic CPU core: 256
+[0m[1;32mExecution Engine Initialized, <PREDA Native Build> v0.0.1, PREDA DevTeam
+[0m[0mRepository: /home/dengliang/.preda/chsimu_repo/native, Module: ./preda_engine (PREDA_NATIVE)
+
+[0m[0m[PRD]: Chain initialized with 1 shard(s), in sync-sharding mode
+[0m[0m[PRD]: 100000 addresses added and evenly distributed in shards
+[0m[0m[PRD]: Compiling 1 contract(s), target=PREDA_NATIVE
+[0m[0m[PRD]: Linking 1 contract(s), target=PREDA_NATIVE
+[0m[1;32m[HIGHLIGHT] Airdrop test
+[0m[0mPerparing test transactions (10000)
+[0m[0m[PRD]: Shd#g:	h:1 txn:0/0/1 addr:0
+[0m[0m[PRD]: Shd#0:	h:1 txn:10000/0/0 addr:100000
+[0m[0m[PRD]: Total Txn:10000/1
+[0m[0mExecuting
+[0m[0m[PRD]: Stopwatch restarted
+[0m[1;32m[PRD]: Stopwatch: 1428 msec
+[PRD]: Order: 0, TPS:7002, uTPS:42016
+[0m[0mPhysical CPU core: 128, Logic CPU core: 256
+[0m[1;32mExecution Engine Initialized, <PREDA Native Build> v0.0.1, PREDA DevTeam
+[0m[0mRepository: /home/dengliang/.preda/chsimu_repo/native, Module: ./preda_engine (PREDA_NATIVE)
+
+[0m[0m[PRD]: Chain initialized with 2 shard(s), in sync-sharding mode
+[0m[0m[PRD]: 100000 addresses added and evenly distributed in shards
+[0m[0m[PRD]: Compiling 1 contract(s), target=PREDA_NATIVE
+[0m[0m[PRD]: Linking 1 contract(s), target=PREDA_NATIVE
+[0m[1;32m[HIGHLIGHT] Airdrop test
+[0m[0mPerparing test transactions (10000)
+[0m[0m[PRD]: Shd#g:	h:1 txn:0/0/1 addr:0
+[0m[0m[PRD]: Shd#0:	h:1 txn:4979/0/0 addr:50000
+[0m[0m[PRD]: Shd#1:	h:1 txn:5021/0/0 addr:50000
+[0m[0m[PRD]: Total Txn:10000/1
+[0m[0mExecuting
+[0m[0m[PRD]: Stopwatch restarted
+[0m[1;32m[PRD]: Stopwatch: 715 msec
+[PRD]: Order: 1, TPS:13986, uTPS:83916
+[0m[0mPhysical CPU core: 128, Logic CPU core: 256
+[0m[1;32mExecution Engine Initialized, <PREDA Native Build> v0.0.1, PREDA DevTeam
+[0m[0mRepository: /home/dengliang/.preda/chsimu_repo/native, Module: ./preda_engine (PREDA_NATIVE)
+
+[0m[0m[PRD]: Chain initialized with 4 shard(s), in sync-sharding mode
+[0m[0m[PRD]: 100000 addresses added and evenly distributed in shards
+[0m[0m[PRD]: Compiling 1 contract(s), target=PREDA_NATIVE
+[0m[0m[PRD]: Linking 1 contract(s), target=PREDA_NATIVE
+[0m[1;32m[HIGHLIGHT] Airdrop test
+[0m[0mPerparing test transactions (10000)
+[0m[0m[PRD]: Shd#g:	h:1 txn:0/0/1 addr:0
+[0m[0m[PRD]: Shd#0:	h:1 txn:2545/0/0 addr:25000
+[0m[0m[PRD]: Shd#1:	h:1 txn:2504/0/0 addr:25000
+[0m[0m[PRD]: Shd#2:	h:1 txn:2477/0/0 addr:25000
+[0m[0m[PRD]: Shd#3:	h:1 txn:2474/0/0 addr:25000
+[0m[0m[PRD]: Total Txn:10000/1
+[0m[0mExecuting
+[0m[0m[PRD]: Stopwatch restarted
+[0m[1;32m[PRD]: Stopwatch: 361 msec
+[PRD]: Order: 2, TPS:27700, uTPS:166204
+[0m[0mPhysical CPU core: 128, Logic CPU core: 256
+[0m[1;32mExecution Engine Initialized, <PREDA Native Build> v0.0.1, PREDA DevTeam
+[0m[0mRepository: /home/dengliang/.preda/chsimu_repo/native, Module: ./preda_engine (PREDA_NATIVE)
+
+[0m[0m[PRD]: Chain initialized with 8 shard(s), in sync-sharding mode
+[0m[0m[PRD]: 100000 addresses added and evenly distributed in shards
+[0m[0m[PRD]: Compiling 1 contract(s), target=PREDA_NATIVE
+[0m[0m[PRD]: Linking 1 contract(s), target=PREDA_NATIVE
+[0m[1;32m[HIGHLIGHT] Airdrop test
+[0m[0mPerparing test transactions (10000)
+[0m[0m[PRD]: Shd#g:	h:1 txn:0/0/1 addr:0
+[0m[0m[PRD]: Shd#0:	h:1 txn:1246/0/0 addr:12500
+[0m[0m[PRD]: Shd#1:	h:1 txn:1263/0/0 addr:12500
+[0m[0m[PRD]: Shd#2:	h:1 txn:1265/0/0 addr:12500
+[0m[0m[PRD]: Shd#3:	h:1 txn:1239/0/0 addr:12500
+[0m[0m[PRD]: Shd#4:	h:1 txn:1237/0/0 addr:12500
+[0m[0m[PRD]: Shd#5:	h:1 txn:1246/0/0 addr:12500
+[0m[0m[PRD]: Shd#6:	h:1 txn:1225/0/0 addr:12500
+[0m[0m[PRD]: Shd#7:	h:1 txn:1279/0/0 addr:12500
+[0m[0m[PRD]: Total Txn:10000/1
+[0m[0mExecuting
+[0m[0m[PRD]: Stopwatch restarted
+[0m[1;32m[PRD]: Stopwatch: 184 msec
+[PRD]: Order: 3, TPS:54347, uTPS:326086
+[0m[0mPhysical CPU core: 128, Logic CPU core: 256
+[0m[1;32mExecution Engine Initialized, <PREDA Native Build> v0.0.1, PREDA DevTeam
+[0m[0mRepository: /home/dengliang/.preda/chsimu_repo/native, Module: ./preda_engine (PREDA_NATIVE)
+
+[0m[0m[PRD]: Chain initialized with 16 shard(s), in sync-sharding mode
+[0m[0m[PRD]: 100000 addresses added and evenly distributed in shards
+[0m[0m[PRD]: Compiling 1 contract(s), target=PREDA_NATIVE
+[0m[0m[PRD]: Linking 1 contract(s), target=PREDA_NATIVE
+[0m[1;32m[HIGHLIGHT] Airdrop test
+[0m[0mPerparing test transactions (10000)
+[0m[0m[PRD]: Shd#g:	h:1 txn:0/0/1 addr:0
+[0m[0m[PRD]: Shd#0:	h:1 txn:626/0/0 addr:6250
+[0m[0m[PRD]: Shd#1:	h:1 txn:595/0/0 addr:6250
+[0m[0m[PRD]: Shd#2:	h:1 txn:604/0/0 addr:6250
+[0m[0m[PRD]: Shd#3:	h:1 txn:567/0/0 addr:6250
+[0m[0m[PRD]: Shd#4:	h:1 txn:645/0/0 addr:6250
+[0m[0m[PRD]: Shd#5:	h:1 txn:609/0/0 addr:6250
+[0m[0m[PRD]: Shd#6:	h:1 txn:589/0/0 addr:6250
+[0m[0m[PRD]: Shd#7:	h:1 txn:657/0/0 addr:6250
+[0m[0m[PRD]: Shd#8:	h:1 txn:653/0/0 addr:6250
+[0m[0m[PRD]: Shd#9:	h:1 txn:647/0/0 addr:6250
+[0m[0m[PRD]: Shd#10:	h:1 txn:602/0/0 addr:6250
+[0m[0m[PRD]: Shd#11:	h:1 txn:628/0/0 addr:6250
+[0m[0m[PRD]: Shd#12:	h:1 txn:618/0/0 addr:6250
+[0m[0m[PRD]: Shd#13:	h:1 txn:651/0/0 addr:6250
+[0m[0m[PRD]: Shd#14:	h:1 txn:651/0/0 addr:6250
+[0m[0m[PRD]: Shd#15:	h:1 txn:658/0/0 addr:6250
+[0m[0m[PRD]: Total Txn:10000/1
+[0m[0mExecuting
+[0m[0m[PRD]: Stopwatch restarted
+[0m[1;32m[PRD]: Stopwatch: 97 msec
+[PRD]: Order: 4, TPS:103092, uTPS:618556
+[0m[0mPhysical CPU core: 128, Logic CPU core: 256
+[0m[1;32mExecution Engine Initialized, <PREDA Native Build> v0.0.1, PREDA DevTeam
+[0m[0mRepository: /home/dengliang/.preda/chsimu_repo/native, Module: ./preda_engine (PREDA_NATIVE)
+
+[0m[0m[PRD]: Chain initialized with 32 shard(s), in sync-sharding mode
+[0m[0m[PRD]: 100000 addresses added and evenly distributed in shards
+[0m[0m[PRD]: Compiling 1 contract(s), target=PREDA_NATIVE
+[0m[0m[PRD]: Linking 1 contract(s), target=PREDA_NATIVE
+[0m[1;32m[HIGHLIGHT] Airdrop test
+[0m[0mPerparing test transactions (10000)
+[0m[0m[PRD]: Shd#g:	h:1 txn:0/0/1 addr:0
+[0m[0m[PRD]: Shd#0:	h:1 txn:330/0/0 addr:3125
+[0m[0m[PRD]: Shd#1:	h:1 txn:323/0/0 addr:3125
+[0m[0m[PRD]: Shd#2:	h:1 txn:314/0/0 addr:3125
+[0m[0m[PRD]: Shd#3:	h:1 txn:332/0/0 addr:3125
+[0m[0m[PRD]: Shd#4:	h:1 txn:295/0/0 addr:3125
+[0m[0m[PRD]: Shd#5:	h:1 txn:314/0/0 addr:3125
+[0m[0m[PRD]: Shd#6:	h:1 txn:319/0/0 addr:3125
+[0m[0m[PRD]: Shd#7:	h:1 txn:319/0/0 addr:3125
+[0m[0m[PRD]: Shd#8:	h:1 txn:336/0/0 addr:3125
+[0m[0m[PRD]: Shd#9:	h:1 txn:291/0/0 addr:3125
+[0m[0m[PRD]: Shd#10:	h:1 txn:304/0/0 addr:3125
+[0m[0m[PRD]: Shd#11:	h:1 txn:331/0/0 addr:3125
+[0m[0m[PRD]: Shd#12:	h:1 txn:316/0/0 addr:3125
+[0m[0m[PRD]: Shd#13:	h:1 txn:317/0/0 addr:3125
+[0m[0m[PRD]: Shd#14:	h:1 txn:322/0/0 addr:3125
+[0m[0m[PRD]: Shd#15:	h:1 txn:307/0/0 addr:3125
+[0m[0m[PRD]: Shd#16:	h:1 txn:301/0/0 addr:3125
+[0m[0m[PRD]: Shd#17:	h:1 txn:288/0/0 addr:3125
+[0m[0m[PRD]: Shd#18:	h:1 txn:289/0/0 addr:3125
+[0m[0m[PRD]: Shd#19:	h:1 txn:345/0/0 addr:3125
+[0m[0m[PRD]: Shd#20:	h:1 txn:318/0/0 addr:3125
+[0m[0m[PRD]: Shd#21:	h:1 txn:297/0/0 addr:3125
+[0m[0m[PRD]: Shd#22:	h:1 txn:325/0/0 addr:3125
+[0m[0m[PRD]: Shd#23:	h:1 txn:327/0/0 addr:3125
+[0m[0m[PRD]: Shd#24:	h:1 txn:316/0/0 addr:3125
+[0m[0m[PRD]: Shd#25:	h:1 txn:308/0/0 addr:3125
+[0m[0m[PRD]: Shd#26:	h:1 txn:297/0/0 addr:3125
+[0m[0m[PRD]: Shd#27:	h:1 txn:275/0/0 addr:3125
+[0m[0m[PRD]: Shd#28:	h:1 txn:308/0/0 addr:3125
+[0m[0m[PRD]: Shd#29:	h:1 txn:327/0/0 addr:3125
+[0m[0m[PRD]: Shd#30:	h:1 txn:315/0/0 addr:3125
+[0m[0m[PRD]: Shd#31:	h:1 txn:294/0/0 addr:3125
+[0m[0m[PRD]: Total Txn:10000/1
+[0m[0mExecuting
+[0m[0m[PRD]: Stopwatch restarted
+[0m[1;32m[PRD]: Stopwatch: 54 msec
+[PRD]: Order: 5, TPS:185185, uTPS:1111111
+[0m[0mPhysical CPU core: 128, Logic CPU core: 256
+[0m[1;32mExecution Engine Initialized, <PREDA Native Build> v0.0.1, PREDA DevTeam
+[0m[0mRepository: /home/dengliang/.preda/chsimu_repo/native, Module: ./preda_engine (PREDA_NATIVE)
+
+[0m[0m[PRD]: Chain initialized with 64 shard(s), in sync-sharding mode
+[0m[0m[PRD]: 100032 addresses added and evenly distributed in shards
+[0m[0m[PRD]: Compiling 1 contract(s), target=PREDA_NATIVE
+[0m[0m[PRD]: Linking 1 contract(s), target=PREDA_NATIVE
+[0m[1;32m[HIGHLIGHT] Airdrop test
+[0m[0mPerparing test transactions (10000)
+[0m[0m[PRD]: Shd#g:	h:1 txn:0/0/1 addr:0
+[0m[0m[PRD]: Shd#0:	h:1 txn:159/0/0 addr:1563
+[0m[0m[PRD]: Shd#1:	h:1 txn:165/0/0 addr:1563
+[0m[0m[PRD]: Shd#2:	h:1 txn:158/0/0 addr:1563
+[0m[0m[PRD]: Shd#3:	h:1 txn:156/0/0 addr:1563
+[0m[0m[PRD]: Shd#4:	h:1 txn:156/0/0 addr:1563
+[0m[0m[PRD]: Shd#5:	h:1 txn:153/0/0 addr:1563
+[0m[0m[PRD]: Shd#6:	h:1 txn:147/0/0 addr:1563
+[0m[0m[PRD]: Shd#7:	h:1 txn:139/0/0 addr:1563
+[0m[0m[PRD]: Shd#8:	h:1 txn:175/0/0 addr:1563
+[0m[0m[PRD]: Shd#9:	h:1 txn:141/0/0 addr:1563
+[0m[0m[PRD]: Shd#10:	h:1 txn:154/0/0 addr:1563
+[0m[0m[PRD]: Shd#11:	h:1 txn:174/0/0 addr:1563
+[0m[0m[PRD]: Shd#12:	h:1 txn:174/0/0 addr:1563
+[0m[0m[PRD]: Shd#13:	h:1 txn:147/0/0 addr:1563
+[0m[0m[PRD]: Shd#14:	h:1 txn:162/0/0 addr:1563
+[0m[0m[PRD]: Shd#15:	h:1 txn:161/0/0 addr:1563
+[0m[0m[PRD]: Shd#16:	h:1 txn:118/0/0 addr:1563
+[0m[0m[PRD]: Shd#17:	h:1 txn:172/0/0 addr:1563
+[0m[0m[PRD]: Shd#18:	h:1 txn:167/0/0 addr:1563
+[0m[0m[PRD]: Shd#19:	h:1 txn:143/0/0 addr:1563
+[0m[0m[PRD]: Shd#20:	h:1 txn:157/0/0 addr:1563
+[0m[0m[PRD]: Shd#21:	h:1 txn:173/0/0 addr:1563
+[0m[0m[PRD]: Shd#22:	h:1 txn:138/0/0 addr:1563
+[0m[0m[PRD]: Shd#23:	h:1 txn:162/0/0 addr:1563
+[0m[0m[PRD]: Shd#24:	h:1 txn:143/0/0 addr:1563
+[0m[0m[PRD]: Shd#25:	h:1 txn:150/0/0 addr:1563
+[0m[0m[PRD]: Shd#26:	h:1 txn:176/0/0 addr:1563
+[0m[0m[PRD]: Shd#27:	h:1 txn:166/0/0 addr:1563
+[0m[0m[PRD]: Shd#28:	h:1 txn:171/0/0 addr:1563
+[0m[0m[PRD]: Shd#29:	h:1 txn:146/0/0 addr:1563
+[0m[0m[PRD]: Shd#30:	h:1 txn:156/0/0 addr:1563
+[0m[0m[PRD]: Shd#31:	h:1 txn:150/0/0 addr:1563
+[0m[0m[PRD]: Shd#32:	h:1 txn:157/0/0 addr:1563
+[0m[0m[PRD]: Shd#33:	h:1 txn:160/0/0 addr:1563
+[0m[0m[PRD]: Shd#34:	h:1 txn:144/0/0 addr:1563
+[0m[0m[PRD]: Shd#35:	h:1 txn:164/0/0 addr:1563
+[0m[0m[PRD]: Shd#36:	h:1 txn:151/0/0 addr:1563
+[0m[0m[PRD]: Shd#37:	h:1 txn:149/0/0 addr:1563
+[0m[0m[PRD]: Shd#38:	h:1 txn:178/0/0 addr:1563
+[0m[0m[PRD]: Shd#39:	h:1 txn:136/0/0 addr:1563
+[0m[0m[PRD]: Shd#40:	h:1 txn:167/0/0 addr:1563
+[0m[0m[PRD]: Shd#41:	h:1 txn:142/0/0 addr:1563
+[0m[0m[PRD]: Shd#42:	h:1 txn:145/0/0 addr:1563
+[0m[0m[PRD]: Shd#43:	h:1 txn:160/0/0 addr:1563
+[0m[0m[PRD]: Shd#44:	h:1 txn:162/0/0 addr:1563
+[0m[0m[PRD]: Shd#45:	h:1 txn:158/0/0 addr:1563
+[0m[0m[PRD]: Shd#46:	h:1 txn:145/0/0 addr:1563
+[0m[0m[PRD]: Shd#47:	h:1 txn:155/0/0 addr:1563
+[0m[0m[PRD]: Shd#48:	h:1 txn:163/0/0 addr:1563
+[0m[0m[PRD]: Shd#49:	h:1 txn:153/0/0 addr:1563
+[0m[0m[PRD]: Shd#50:	h:1 txn:150/0/0 addr:1563
+[0m[0m[PRD]: Shd#51:	h:1 txn:155/0/0 addr:1563
+[0m[0m[PRD]: Shd#52:	h:1 txn:161/0/0 addr:1563
+[0m[0m[PRD]: Shd#53:	h:1 txn:172/0/0 addr:1563
+[0m[0m[PRD]: Shd#54:	h:1 txn:158/0/0 addr:1563
+[0m[0m[PRD]: Shd#55:	h:1 txn:150/0/0 addr:1563
+[0m[0m[PRD]: Shd#56:	h:1 txn:157/0/0 addr:1563
+[0m[0m[PRD]: Shd#57:	h:1 txn:157/0/0 addr:1563
+[0m[0m[PRD]: Shd#58:	h:1 txn:147/0/0 addr:1563
+[0m[0m[PRD]: Shd#59:	h:1 txn:195/0/0 addr:1563
+[0m[0m[PRD]: Shd#60:	h:1 txn:149/0/0 addr:1563
+[0m[0m[PRD]: Shd#61:	h:1 txn:152/0/0 addr:1563
+[0m[0m[PRD]: Shd#62:	h:1 txn:137/0/0 addr:1563
+[0m[0m[PRD]: Shd#63:	h:1 txn:162/0/0 addr:1563
+[0m[0m[PRD]: Total Txn:10000/1
+[0m[0mExecuting
+[0m[0m[PRD]: Stopwatch restarted
+[0m[1;32m[PRD]: Stopwatch: 45 msec
+[PRD]: Order: 6, TPS:222222, uTPS:1333333
+[0m[0mPhysical CPU core: 128, Logic CPU core: 256
+[0m[1;32mExecution Engine Initialized, <PREDA Native Build> v0.0.1, PREDA DevTeam
+[0m[0mRepository: /home/dengliang/.preda/chsimu_repo/native, Module: ./preda_engine (PREDA_NATIVE)
+
+
+============================== finalize ==============================
+parallel execution tps: [7002,13986,27700,54347,103092,185185,222222]
+speed up: [1.00,1.99,3.95,7.76,14.72,26.44,31.73]

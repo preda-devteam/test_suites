@@ -1,0 +1,17 @@
+random.reseed
+allocate.address 100000
+chain.gaslimit 10000000
+
+chain.deploy @1 ERC20.prd
+
+state.set ERC20.address @all { balance:"10000000000000" }
+
+csv_data = csv.from("ETH_2401_100000.csv")
+
+chain.batch_insert_txn csv_data
+
+chain.info
+
+stopwatch.restart
+chain.run
+stopwatch.report

@@ -1,0 +1,130 @@
+run kitty tasks
+============================== taskset in cpu: (0) ==============================
+parallel units:  1
+deploy kitty contract finished, address:  0xA37B093bd8E592aC4eA0512e892b6EA7AFC148B9
+mint for all accounts...
+mint finish:  6.130355594s write db:  225.124691ms
+mint for all accounts finish.
+tasks: 1000 elapse: 4.194760956  parallel tps:  238
+tasks: 1000 elapse: 4.268294663  parallel tps:  234
+tasks: 1000 elapse: 4.24559544  parallel tps:  235
+tasks: 1000 elapse: 4.155943185  parallel tps:  240
+tasks: 1000 elapse: 4.197999326  parallel tps:  238
+tasks: 1000 elapse: 4.166171642  parallel tps:  240
+tasks: 1000 elapse: 4.14366628  parallel tps:  241
+tasks: 1000 elapse: 4.161088348  parallel tps:  240
+tasks: 1000 elapse: 4.197239184  parallel tps:  238
+tasks: 1000 elapse: 4.236507916  parallel tps:  236
+
+
+============================== taskset in cpu: (0,1) ==============================
+parallel units:  2
+deploy kitty contract finished, address:  0x0ed3A55b67cd1533bC745EdA58062Ab203F18032
+mint for all accounts...
+mint finish:  5.713512292s write db:  190.522658ms
+mint for all accounts finish.
+tasks: 1000 elapse: 6.295866079  parallel tps:  158
+tasks: 1000 elapse: 6.39001659  parallel tps:  156
+tasks: 1000 elapse: 6.328787027  parallel tps:  158
+tasks: 1000 elapse: 6.58187856  parallel tps:  151
+tasks: 1000 elapse: 6.363941573  parallel tps:  157
+tasks: 1000 elapse: 6.57714179  parallel tps:  152
+tasks: 1000 elapse: 6.464730941  parallel tps:  154
+tasks: 1000 elapse: 6.066482133  parallel tps:  164
+tasks: 1000 elapse: 6.80243958  parallel tps:  147
+tasks: 1000 elapse: 6.581757617  parallel tps:  151
+
+
+============================== taskset in cpu: (0,1,2,3) ==============================
+parallel units:  4
+deploy kitty contract finished, address:  0x092884fEc5e50e963C97DDA72Fd72BAf2BEf4DA2
+mint for all accounts...
+mint finish:  5.60099879s write db:  186.615063ms
+mint for all accounts finish.
+tasks: 1000 elapse: 5.022700375  parallel tps:  199
+tasks: 1000 elapse: 5.281563938  parallel tps:  189
+tasks: 1000 elapse: 5.4499962570000005  parallel tps:  183
+tasks: 1000 elapse: 5.269061443  parallel tps:  189
+tasks: 1000 elapse: 5.146102305  parallel tps:  194
+tasks: 1000 elapse: 5.159677203  parallel tps:  193
+tasks: 1000 elapse: 5.444025516  parallel tps:  183
+tasks: 1000 elapse: 5.398102141  parallel tps:  185
+tasks: 1000 elapse: 5.379880313  parallel tps:  185
+tasks: 1000 elapse: 5.299009102  parallel tps:  188
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7) ==============================
+parallel units:  8
+deploy kitty contract finished, address:  0xe23530c57337B4a15dA1e8e3dF14652E21a531B4
+mint for all accounts...
+mint finish:  5.664553071s write db:  196.899138ms
+mint for all accounts finish.
+tasks: 1000 elapse: 4.336451282  parallel tps:  230
+tasks: 1000 elapse: 4.435608524  parallel tps:  225
+tasks: 1000 elapse: 4.480520068  parallel tps:  223
+tasks: 1000 elapse: 4.510521339  parallel tps:  221
+tasks: 1000 elapse: 4.481044052  parallel tps:  223
+tasks: 1000 elapse: 4.565294598  parallel tps:  219
+tasks: 1000 elapse: 4.277222149  parallel tps:  233
+tasks: 1000 elapse: 4.502969692  parallel tps:  222
+tasks: 1000 elapse: 4.265662192  parallel tps:  234
+tasks: 1000 elapse: 4.297421402  parallel tps:  232
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15) ==============================
+parallel units:  16
+deploy kitty contract finished, address:  0x699e410be313a4898aAd60185e366DEe721FADd7
+mint for all accounts...
+mint finish:  5.732310179s write db:  205.743619ms
+mint for all accounts finish.
+tasks: 1000 elapse: 3.856098122  parallel tps:  259
+tasks: 1000 elapse: 3.917581292  parallel tps:  255
+tasks: 1000 elapse: 3.933543794  parallel tps:  254
+tasks: 1000 elapse: 3.936259418  parallel tps:  254
+tasks: 1000 elapse: 3.945220994  parallel tps:  253
+tasks: 1000 elapse: 3.917267596  parallel tps:  255
+tasks: 1000 elapse: 3.953230415  parallel tps:  252
+tasks: 1000 elapse: 3.983207043  parallel tps:  251
+tasks: 1000 elapse: 3.99134648  parallel tps:  250
+tasks: 1000 elapse: 3.946910952  parallel tps:  253
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31) ==============================
+parallel units:  32
+deploy kitty contract finished, address:  0xFa1058Ab21Cb5BAf5e1Aa36D179a4095470Bc7f2
+mint for all accounts...
+mint finish:  5.732351058s write db:  208.73158ms
+mint for all accounts finish.
+tasks: 1000 elapse: 3.784597792  parallel tps:  264
+tasks: 1000 elapse: 3.783174501  parallel tps:  264
+tasks: 1000 elapse: 3.906153275  parallel tps:  256
+tasks: 1000 elapse: 3.817524459  parallel tps:  261
+tasks: 1000 elapse: 3.808059638  parallel tps:  262
+tasks: 1000 elapse: 3.796964983  parallel tps:  263
+tasks: 1000 elapse: 3.804386467  parallel tps:  262
+tasks: 1000 elapse: 3.819071555  parallel tps:  261
+tasks: 1000 elapse: 3.772542312  parallel tps:  265
+tasks: 1000 elapse: 3.814960061  parallel tps:  262
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63) ==============================
+parallel units:  64
+deploy kitty contract finished, address:  0xBF54f47646FD68Da39007e099ddb36A718eE5476
+mint for all accounts...
+mint finish:  5.753324883s write db:  210.984841ms
+mint for all accounts finish.
+tasks: 1000 elapse: 4.107904911  parallel tps:  243
+tasks: 1000 elapse: 4.08769926  parallel tps:  244
+tasks: 1000 elapse: 4.025219028  parallel tps:  248
+tasks: 1000 elapse: 4.041982498  parallel tps:  247
+tasks: 1000 elapse: 4.059647068  parallel tps:  246
+tasks: 1000 elapse: 4.143742136  parallel tps:  241
+tasks: 1000 elapse: 4.021673811  parallel tps:  248
+tasks: 1000 elapse: 3.991137014  parallel tps:  250
+tasks: 1000 elapse: 4.004655327  parallel tps:  249
+tasks: 1000 elapse: 4.032968824  parallel tps:  247
+
+
+============================== finalize ==============================
+parallel execution tps: [238,155,188,224,253,262,247]
+speed up: [1.00,0.65,0.78,0.94,1.06,1.10,1.03]

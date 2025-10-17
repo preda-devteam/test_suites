@@ -1,0 +1,74 @@
+run million pixel tasks
+============================== taskset in cpu: (0) ==============================
+Creating 100001 accounts and 100001 gas objects
+Initializing validator
+Preparing land objects
+Refreshing gas objects
+Finished preparing land objects, num: 1
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 1232447, tv_nsec: 863275675 }
+End executing tx, time: Instant { tv_sec: 1232517, tv_nsec: 916423495 }
+Execution finished in 70.053s, TPS=1427
+
+
+============================== taskset in cpu: (0,2) ==============================
+Creating 100001 accounts and 100001 gas objects
+Initializing validator
+Preparing land objects
+Refreshing gas objects
+Finished preparing land objects, num: 1
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 1232534, tv_nsec: 695266735 }
+End executing tx, time: Instant { tv_sec: 1232611, tv_nsec: 158050728 }
+Execution finished in 76.462s, TPS=1308
+
+
+============================== taskset in cpu: (0,2,4,6) ==============================
+Creating 100001 accounts and 100001 gas objects
+Initializing validator
+Preparing land objects
+Refreshing gas objects
+Finished preparing land objects, num: 1
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 1232622, tv_nsec: 166601413 }
+End executing tx, time: Instant { tv_sec: 1232697, tv_nsec: 976287768 }
+Execution finished in 75.809s, TPS=1319
+
+
+============================== taskset in cpu: (0,2,4,6,8,10,12,14) ==============================
+Creating 100001 accounts and 100001 gas objects
+Initializing validator
+Preparing land objects
+Refreshing gas objects
+Finished preparing land objects, num: 1
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 1232706, tv_nsec: 265930149 }
+End executing tx, time: Instant { tv_sec: 1232789, tv_nsec: 782202748 }
+Execution finished in 83.516s, TPS=1197
+
+
+============================== taskset in cpu: (0,2,4,6,8,10,12,14,16,17,18,19,20,21,22,23) ==============================
+Creating 100001 accounts and 100001 gas objects
+Initializing validator
+Preparing land objects
+Refreshing gas objects
+Finished preparing land objects, num: 1
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 1232797, tv_nsec: 67996651 }
+End executing tx, time: Instant { tv_sec: 1232877, tv_nsec: 779302599 }
+Execution finished in 80.711s, TPS=1239
+
+
+============================== finalize ==============================
+parallel execution tps: [1427,1308,1319,1197,1239]
+speed up: [1.00,0.91,0.92,0.83,0.86]

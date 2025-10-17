@@ -1,0 +1,74 @@
+run kitty tasks
+============================== taskset in cpu: (0) ==============================
+Creating 100001 accounts and 100001 gas objects
+Initializing validator
+Preparing kitty objects
+Refreshing gas objects
+Finished preparing kitty objects, num: 100000
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Refreshing gas objects
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Execution kitty all finished in 140.572s, TPS=711.3792220356828
+
+
+============================== taskset in cpu: (0,2) ==============================
+Creating 100001 accounts and 100001 gas objects
+Initializing validator
+Preparing kitty objects
+Refreshing gas objects
+Finished preparing kitty objects, num: 100000
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Refreshing gas objects
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Execution kitty all finished in 72.157s, TPS=1385.866929057472
+
+
+============================== taskset in cpu: (0,2,4,6) ==============================
+Creating 100001 accounts and 100001 gas objects
+Initializing validator
+Preparing kitty objects
+Refreshing gas objects
+Finished preparing kitty objects, num: 100000
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Refreshing gas objects
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Execution kitty all finished in 35.257s, TPS=2836.3161925291433
+
+
+============================== taskset in cpu: (0,2,4,6,8,10,12,14) ==============================
+Creating 100001 accounts and 100001 gas objects
+Initializing validator
+Preparing kitty objects
+Refreshing gas objects
+Finished preparing kitty objects, num: 100000
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Refreshing gas objects
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Execution kitty all finished in 18.366s, TPS=5444.843732984863
+
+
+============================== taskset in cpu: (0,2,4,6,8,10,12,14,16,17,18,19,20,21,22,23) ==============================
+Creating 100001 accounts and 100001 gas objects
+Initializing validator
+Preparing kitty objects
+Refreshing gas objects
+Finished preparing kitty objects, num: 100000
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Refreshing gas objects
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Execution kitty all finished in 11.431999999999999s, TPS=8747.375787263822
+
+
+============================== finalize ==============================
+parallel execution tps: []
+speed up: []

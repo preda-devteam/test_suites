@@ -1,0 +1,17 @@
+random.reseed
+allocate.address $~addr$
+chain.gaslimit 100000000
+
+chain.deploy @1 ERC20_uint256.prd
+
+state.set ERC20.address @all { balance: 10000000000000 }
+
+ERC20.transfer_n*$~count$ @random { recipients: [ \
+	{ to: "$@random$", amount: 100 }, { to: "$@random$", amount: 200 }, { to: "$@random$", amount: 150 }, { to: "$@random$", amount: 50 }, { to: "$@random$", amount: 100 } \
+]}
+
+chain.info
+
+stopwatch.restart
+chain.run
+stopwatch.report

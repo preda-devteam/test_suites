@@ -1,0 +1,144 @@
+run ballot tasks
+============================== taskset in cpu: (0) ==============================
+parallel units:  1
+0x4BD1426De0871e23b5f64767E4e9449E3F16Af7D
+deploy ballot contract finished, address:  0x47cC905623560648192DeB7bF7316A547d7C026D code hash:  0x2cbd71c3e0f9580e89f84bf5bf9e0f0ffb02baf09c93c1a7c507ce9c28e17530
+set for all accounts...
+set for all accounts finish.
+init for ballot...
+init for ballot finish.
+tasks: 1000 elapse: 4.113118987  parallel tps:  243
+tasks: 1000 elapse: 2.487231608  parallel tps:  402
+tasks: 1000 elapse: 2.510165847  parallel tps:  398
+tasks: 1000 elapse: 2.508960573  parallel tps:  398
+tasks: 1000 elapse: 2.471166675  parallel tps:  404
+tasks: 1000 elapse: 2.450254874  parallel tps:  408
+tasks: 1000 elapse: 2.512239112  parallel tps:  398
+tasks: 1000 elapse: 2.5064393689999998  parallel tps:  398
+tasks: 1000 elapse: 2.470678229  parallel tps:  404
+tasks: 1000 elapse: 2.470368882  parallel tps:  404
+
+
+============================== taskset in cpu: (0,1) ==============================
+parallel units:  2
+0x47f100f6854547623143b488A174343296f326fB
+deploy ballot contract finished, address:  0xfe985D55eCdE97c553F9B12DeA5939AE84B4C896 code hash:  0x2cbd71c3e0f9580e89f84bf5bf9e0f0ffb02baf09c93c1a7c507ce9c28e17530
+set for all accounts...
+set for all accounts finish.
+init for ballot...
+init for ballot finish.
+tasks: 1000 elapse: 9.969704592  parallel tps:  100
+tasks: 1000 elapse: 3.964722293  parallel tps:  252
+tasks: 1000 elapse: 3.98116207  parallel tps:  251
+tasks: 1000 elapse: 4.075118507  parallel tps:  245
+tasks: 1000 elapse: 3.915122437  parallel tps:  255
+tasks: 1000 elapse: 3.980247115  parallel tps:  251
+tasks: 1000 elapse: 4.017009377  parallel tps:  248
+tasks: 1000 elapse: 4.174638537  parallel tps:  239
+tasks: 1000 elapse: 4.032768344  parallel tps:  247
+tasks: 1000 elapse: 3.939516835  parallel tps:  253
+
+
+============================== taskset in cpu: (0,1,2,3) ==============================
+parallel units:  4
+0x00156dF08634dABde278B22057edC45acdB70aE3
+deploy ballot contract finished, address:  0xDa03b0517131Af18e99b452D35c2a73f8115981A code hash:  0x2cbd71c3e0f9580e89f84bf5bf9e0f0ffb02baf09c93c1a7c507ce9c28e17530
+set for all accounts...
+set for all accounts finish.
+init for ballot...
+init for ballot finish.
+tasks: 1000 elapse: 7.319207058  parallel tps:  136
+tasks: 1000 elapse: 3.955783946  parallel tps:  252
+tasks: 1000 elapse: 4.313506338  parallel tps:  231
+tasks: 1000 elapse: 3.781140076  parallel tps:  264
+tasks: 1000 elapse: 4.04034908  parallel tps:  247
+tasks: 1000 elapse: 3.947270234  parallel tps:  253
+tasks: 1000 elapse: 3.865077169  parallel tps:  258
+tasks: 1000 elapse: 3.759171046  parallel tps:  266
+tasks: 1000 elapse: 3.8031601310000003  parallel tps:  262
+tasks: 1000 elapse: 3.904185484  parallel tps:  256
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7) ==============================
+parallel units:  8
+0x96d57aB12dB268499b5330223F65FD4E0d872D75
+deploy ballot contract finished, address:  0x697f4C7F842162C780E46a6a7C34701Fa90e03Cc code hash:  0x2cbd71c3e0f9580e89f84bf5bf9e0f0ffb02baf09c93c1a7c507ce9c28e17530
+set for all accounts...
+set for all accounts finish.
+init for ballot...
+init for ballot finish.
+tasks: 1000 elapse: 5.589162013  parallel tps:  178
+tasks: 1000 elapse: 3.053242378  parallel tps:  327
+tasks: 1000 elapse: 3.132421341  parallel tps:  319
+tasks: 1000 elapse: 2.98735985  parallel tps:  334
+tasks: 1000 elapse: 3.154413603  parallel tps:  317
+tasks: 1000 elapse: 3.153016082  parallel tps:  317
+tasks: 1000 elapse: 2.989274683  parallel tps:  334
+tasks: 1000 elapse: 3.015971821  parallel tps:  331
+tasks: 1000 elapse: 3.034909097  parallel tps:  329
+tasks: 1000 elapse: 3.090553241  parallel tps:  323
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15) ==============================
+parallel units:  16
+0x69e04f22C1ebC2e094357cE7ed2c5684E12c8B01
+deploy ballot contract finished, address:  0xA73C4C987CdfaF6e1c69f8e06b7C570a2d40bD7a code hash:  0x2cbd71c3e0f9580e89f84bf5bf9e0f0ffb02baf09c93c1a7c507ce9c28e17530
+set for all accounts...
+set for all accounts finish.
+init for ballot...
+init for ballot finish.
+tasks: 1000 elapse: 4.6490453689999995  parallel tps:  215
+tasks: 1000 elapse: 2.540338998  parallel tps:  393
+tasks: 1000 elapse: 2.6522816970000003  parallel tps:  377
+tasks: 1000 elapse: 2.538787744  parallel tps:  393
+tasks: 1000 elapse: 2.705367949  parallel tps:  369
+tasks: 1000 elapse: 2.468842168  parallel tps:  405
+tasks: 1000 elapse: 2.542029585  parallel tps:  393
+tasks: 1000 elapse: 2.501526364  parallel tps:  399
+tasks: 1000 elapse: 2.504830824  parallel tps:  399
+tasks: 1000 elapse: 2.610882747  parallel tps:  383
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31) ==============================
+parallel units:  32
+0xd649Fbc395C654BE5a3c540C456878887166bE2E
+deploy ballot contract finished, address:  0xd402A88E3561e7e167010259693DB4a28fC8b2E7 code hash:  0x2cbd71c3e0f9580e89f84bf5bf9e0f0ffb02baf09c93c1a7c507ce9c28e17530
+set for all accounts...
+set for all accounts finish.
+init for ballot...
+init for ballot finish.
+tasks: 1000 elapse: 4.47793575  parallel tps:  223
+tasks: 1000 elapse: 2.519526393  parallel tps:  396
+tasks: 1000 elapse: 2.6078226730000003  parallel tps:  383
+tasks: 1000 elapse: 2.437890764  parallel tps:  410
+tasks: 1000 elapse: 2.495205151  parallel tps:  400
+tasks: 1000 elapse: 2.48334906  parallel tps:  402
+tasks: 1000 elapse: 2.508056705  parallel tps:  398
+tasks: 1000 elapse: 2.536855119  parallel tps:  394
+tasks: 1000 elapse: 2.496642099  parallel tps:  400
+tasks: 1000 elapse: 2.370152702  parallel tps:  421
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63) ==============================
+parallel units:  64
+0x407726B3eC3F448b882DFaD4280Bb33D95b611E2
+deploy ballot contract finished, address:  0x21673cd3Fd857DfC245EeE17F59e8C4c7b668343 code hash:  0x2cbd71c3e0f9580e89f84bf5bf9e0f0ffb02baf09c93c1a7c507ce9c28e17530
+set for all accounts...
+set for all accounts finish.
+init for ballot...
+init for ballot finish.
+tasks: 1000 elapse: 4.928093723  parallel tps:  202
+tasks: 1000 elapse: 2.778649236  parallel tps:  359
+tasks: 1000 elapse: 2.695839084  parallel tps:  370
+tasks: 1000 elapse: 2.800589319  parallel tps:  357
+tasks: 1000 elapse: 2.7769426790000002  parallel tps:  360
+tasks: 1000 elapse: 2.742950522  parallel tps:  364
+tasks: 1000 elapse: 2.8398574869999997  parallel tps:  352
+tasks: 1000 elapse: 2.785733155  parallel tps:  358
+tasks: 1000 elapse: 2.863985189  parallel tps:  349
+tasks: 1000 elapse: 2.784618881  parallel tps:  359
+
+
+============================== finalize ==============================
+parallel execution tps: [400,249,254,325,393,399,358]
+speed up: [1.00,0.62,0.63,0.81,0.98,0.99,0.89]

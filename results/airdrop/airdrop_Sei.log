@@ -1,0 +1,131 @@
+run airdrop tasks
+============================== taskset in cpu: (0) ==============================
+parallel units:  1
+0xC19D497D7625B0fce8FBD2703e2bED8401F751ee
+deploy airdrop contract finished, address:  0x68b33F70bEe8d1BA986b3829e68357B6806759aF code hash:  0x4dedf880217d39489ec046b07405846600e5d4ec30f2ded30680da0474126321
+deposit for all accounts...
+deposit for all accounts finish.
+tasks: 1000 elapse: 3.473190898  parallel tps:  287
+tasks: 1000 elapse: 3.122298015  parallel tps:  320
+tasks: 1000 elapse: 2.796413759  parallel tps:  357
+tasks: 1000 elapse: 2.807032063  parallel tps:  356
+tasks: 1000 elapse: 2.767706162  parallel tps:  361
+tasks: 1000 elapse: 2.708398025  parallel tps:  369
+tasks: 1000 elapse: 2.737614819  parallel tps:  365
+tasks: 1000 elapse: 2.7407380569999997  parallel tps:  364
+tasks: 1000 elapse: 2.725878615  parallel tps:  366
+tasks: 1000 elapse: 2.7000487140000002  parallel tps:  370
+
+
+============================== taskset in cpu: (0,1) ==============================
+parallel units:  2
+0x5E0139B70C9813C52D3164e087bB0225E58F3A5b
+deploy airdrop contract finished, address:  0x4476BBAF0FD3D60EE4181273B632a65Bd587B06F code hash:  0x4dedf880217d39489ec046b07405846600e5d4ec30f2ded30680da0474126321
+deposit for all accounts...
+deposit for all accounts finish.
+tasks: 1000 elapse: 2.805639396  parallel tps:  356
+tasks: 1000 elapse: 2.455068875  parallel tps:  407
+tasks: 1000 elapse: 1.77453975  parallel tps:  563
+tasks: 1000 elapse: 1.751146341  parallel tps:  571
+tasks: 1000 elapse: 1.573561062  parallel tps:  635
+tasks: 1000 elapse: 1.749788854  parallel tps:  571
+tasks: 1000 elapse: 1.605621049  parallel tps:  622
+tasks: 1000 elapse: 1.526009204  parallel tps:  655
+tasks: 1000 elapse: 1.5922191639999999  parallel tps:  628
+tasks: 1000 elapse: 1.51735093  parallel tps:  659
+
+
+============================== taskset in cpu: (0,1,2,3) ==============================
+parallel units:  4
+0xf33c7b5D31988a11854DE986712bAbe396b53866
+deploy airdrop contract finished, address:  0x1b94c55ee0D0a12640675440246667868BCf10dB code hash:  0x4dedf880217d39489ec046b07405846600e5d4ec30f2ded30680da0474126321
+deposit for all accounts...
+deposit for all accounts finish.
+tasks: 1000 elapse: 2.166831741  parallel tps:  461
+tasks: 1000 elapse: 1.484060449  parallel tps:  673
+tasks: 1000 elapse: 1.342759003  parallel tps:  744
+tasks: 1000 elapse: 1.149326577  parallel tps:  870
+tasks: 1000 elapse: 1.118031923  parallel tps:  894
+tasks: 1000 elapse: 1.031576158  parallel tps:  969
+tasks: 1000 elapse: 1.055384364  parallel tps:  947
+tasks: 1000 elapse: 0.966581435  parallel tps:  1034
+tasks: 1000 elapse: 0.975316307  parallel tps:  1025
+tasks: 1000 elapse: 1.033474695  parallel tps:  967
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7) ==============================
+parallel units:  8
+0xEC53c380173a610e3Ea153917c8a871cC4059ff3
+deploy airdrop contract finished, address:  0x9228f8e13Ef9420A5a712FfE082ecBf3be23da3e code hash:  0x4dedf880217d39489ec046b07405846600e5d4ec30f2ded30680da0474126321
+deposit for all accounts...
+deposit for all accounts finish.
+tasks: 1000 elapse: 2.004390449  parallel tps:  498
+tasks: 1000 elapse: 1.471848206  parallel tps:  679
+tasks: 1000 elapse: 1.105677053  parallel tps:  904
+tasks: 1000 elapse: 1.005612564  parallel tps:  994
+tasks: 1000 elapse: 0.941762886  parallel tps:  1061
+tasks: 1000 elapse: 0.922337504  parallel tps:  1084
+tasks: 1000 elapse: 0.891209417  parallel tps:  1122
+tasks: 1000 elapse: 1.149460064  parallel tps:  869
+tasks: 1000 elapse: 1.142107181  parallel tps:  875
+tasks: 1000 elapse: 1.061955077  parallel tps:  941
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15) ==============================
+parallel units:  16
+0x10D1C3eD6678e8d82B05AB417F7271F96E12379D
+deploy airdrop contract finished, address:  0xcf7dbcF0d4065A5795E00f96c3e23689FE30Bd90 code hash:  0x4dedf880217d39489ec046b07405846600e5d4ec30f2ded30680da0474126321
+deposit for all accounts...
+deposit for all accounts finish.
+tasks: 1000 elapse: 2.372271664  parallel tps:  421
+tasks: 1000 elapse: 1.654716363  parallel tps:  604
+tasks: 1000 elapse: 1.5000609790000001  parallel tps:  666
+tasks: 1000 elapse: 1.637519146  parallel tps:  610
+tasks: 1000 elapse: 1.554508533  parallel tps:  643
+tasks: 1000 elapse: 1.648950842  parallel tps:  606
+tasks: 1000 elapse: 1.669426923  parallel tps:  599
+tasks: 1000 elapse: 1.28779631  parallel tps:  776
+tasks: 1000 elapse: 1.46835754  parallel tps:  681
+tasks: 1000 elapse: 1.470405999  parallel tps:  680
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31) ==============================
+parallel units:  32
+0x8Ebb7e139B026588E4696248852286eeEb72d9a8
+deploy airdrop contract finished, address:  0xAf142781b714241120eA3dD149BC28618a7ccE46 code hash:  0x4dedf880217d39489ec046b07405846600e5d4ec30f2ded30680da0474126321
+deposit for all accounts...
+deposit for all accounts finish.
+tasks: 1000 elapse: 2.716610433  parallel tps:  368
+tasks: 1000 elapse: 2.361419593  parallel tps:  423
+tasks: 1000 elapse: 1.88939873  parallel tps:  529
+tasks: 1000 elapse: 2.009999929  parallel tps:  497
+tasks: 1000 elapse: 1.8365495950000001  parallel tps:  544
+tasks: 1000 elapse: 1.932719281  parallel tps:  517
+tasks: 1000 elapse: 1.877364852  parallel tps:  532
+tasks: 1000 elapse: 1.89775095  parallel tps:  526
+tasks: 1000 elapse: 1.869821928  parallel tps:  534
+tasks: 1000 elapse: 1.846375763  parallel tps:  541
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63) ==============================
+parallel units:  64
+0xEe4c64610670a3e5850DF4607d37Ba46D5C9117C
+deploy airdrop contract finished, address:  0x168D9FF3b8C6454f6e1d3bC2465e057302319f57 code hash:  0x4dedf880217d39489ec046b07405846600e5d4ec30f2ded30680da0474126321
+deposit for all accounts...
+deposit for all accounts finish.
+tasks: 1000 elapse: 3.237487814  parallel tps:  308
+tasks: 1000 elapse: 2.71525999  parallel tps:  368
+tasks: 1000 elapse: 2.561264016  parallel tps:  390
+tasks: 1000 elapse: 2.312906056  parallel tps:  432
+tasks: 1000 elapse: 2.348185578  parallel tps:  425
+tasks: 1000 elapse: 2.327768482  parallel tps:  429
+tasks: 1000 elapse: 2.3076962500000002  parallel tps:  433
+tasks: 1000 elapse: 2.369741846  parallel tps:  421
+tasks: 1000 elapse: 2.2642079600000002  parallel tps:  441
+tasks: 1000 elapse: 2.2640267339999998  parallel tps:  441
+
+
+
+============================== finalize ==============================
+parallel execution tps: [362,596,920,922,626,527,427]
+speed up: [1.00,1.64,2.54,2.54,1.72,1.45,1.17]

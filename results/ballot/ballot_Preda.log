@@ -1,0 +1,418 @@
+run Ballot task
+[0mPhysical CPU core: 128, Logic CPU core: 256
+[0m[1;32mExecution Engine Initialized, <PREDA Native Build> v0.0.1, PREDA DevTeam
+[0m[0mRepository: /home/dengliang/.preda/chsimu_repo/native, Module: ./preda_engine (PREDA_NATIVE)
+
+[0m[0m[PRD]: Chain initialized with 1 shard(s), in sync-sharding mode
+[0m[0m[PRD]: 100000 addresses added and evenly distributed in shards
+[0m[0m[PRD]: Compiling 1 contract(s), target=PREDA_NATIVE
+[0m[0m[PRD]: Linking 1 contract(s), target=PREDA_NATIVE
+[0m[1;32m[HIGHLIGHT] Ballot test
+[0m[0mPerparing test transactions
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 1
+[0m[0m[PRD]: Shd#g:	h:3 txn:0/0/2 addr:0
+[0m[0m[PRD]: Shd#0:	h:3 txn:0/0/1 addr:100000
+[0m[0m[PRD]: Total Txn:0/3
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 2
+[0m[0m[PRD]: Shd#g:	h:3 txn:0/0/2 addr:0
+[0m[0m[PRD]: Shd#0:	h:3 txn:100000/0/1 addr:100000
+[0m[0m[PRD]: Total Txn:100000/3
+[0m[0mExecuting
+[0m[0m[PRD]: Stopwatch restarted
+[0m[1;32m[PRD]: Stopwatch: 11926 msec
+[PRD]: Order: 0, TPS:8385, uTPS:8385
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 3
+[0m[0mfinalize
+[0m[0mPhysical CPU core: 128, Logic CPU core: 256
+[0m[1;32mExecution Engine Initialized, <PREDA Native Build> v0.0.1, PREDA DevTeam
+[0m[0mRepository: /home/dengliang/.preda/chsimu_repo/native, Module: ./preda_engine (PREDA_NATIVE)
+
+[0m[0m[PRD]: Chain initialized with 2 shard(s), in sync-sharding mode
+[0m[0m[PRD]: 100000 addresses added and evenly distributed in shards
+[0m[0m[PRD]: Compiling 1 contract(s), target=PREDA_NATIVE
+[0m[0m[PRD]: Linking 1 contract(s), target=PREDA_NATIVE
+[0m[1;32m[HIGHLIGHT] Ballot test
+[0m[0mPerparing test transactions
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 1
+[0m[0m[PRD]: Shd#g:	h:3 txn:0/0/2 addr:0
+[0m[0m[PRD]: Shd#0:	h:3 txn:0/0/1 addr:50000
+[0m[0m[PRD]: Shd#1:	h:3 txn:0/0/0 addr:50000
+[0m[0m[PRD]: Total Txn:0/3
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 2
+[0m[0m[PRD]: Shd#g:	h:3 txn:0/0/2 addr:0
+[0m[0m[PRD]: Shd#0:	h:3 txn:50000/0/1 addr:50000
+[0m[0m[PRD]: Shd#1:	h:3 txn:50000/0/0 addr:50000
+[0m[0m[PRD]: Total Txn:100000/3
+[0m[0mExecuting
+[0m[0m[PRD]: Stopwatch restarted
+[0m[1;32m[PRD]: Stopwatch: 5961 msec
+[PRD]: Order: 1, TPS:16775, uTPS:16775
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 3
+[0m[0mfinalize
+[0m[0mPhysical CPU core: 128, Logic CPU core: 256
+[0m[1;32mExecution Engine Initialized, <PREDA Native Build> v0.0.1, PREDA DevTeam
+[0m[0mRepository: /home/dengliang/.preda/chsimu_repo/native, Module: ./preda_engine (PREDA_NATIVE)
+
+[0m[0m[PRD]: Chain initialized with 4 shard(s), in sync-sharding mode
+[0m[0m[PRD]: 100000 addresses added and evenly distributed in shards
+[0m[0m[PRD]: Compiling 1 contract(s), target=PREDA_NATIVE
+[0m[0m[PRD]: Linking 1 contract(s), target=PREDA_NATIVE
+[0m[1;32m[HIGHLIGHT] Ballot test
+[0m[0mPerparing test transactions
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 1
+[0m[0m[PRD]: Shd#g:	h:3 txn:0/0/2 addr:0
+[0m[0m[PRD]: Shd#0:	h:3 txn:0/0/0 addr:25000
+[0m[0m[PRD]: Shd#1:	h:3 txn:0/0/1 addr:25000
+[0m[0m[PRD]: Shd#2:	h:3 txn:0/0/0 addr:25000
+[0m[0m[PRD]: Shd#3:	h:3 txn:0/0/0 addr:25000
+[0m[0m[PRD]: Total Txn:0/3
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 2
+[0m[0m[PRD]: Shd#g:	h:3 txn:0/0/2 addr:0
+[0m[0m[PRD]: Shd#0:	h:3 txn:25000/0/0 addr:25000
+[0m[0m[PRD]: Shd#1:	h:3 txn:25000/0/1 addr:25000
+[0m[0m[PRD]: Shd#2:	h:3 txn:25000/0/0 addr:25000
+[0m[0m[PRD]: Shd#3:	h:3 txn:25000/0/0 addr:25000
+[0m[0m[PRD]: Total Txn:100000/3
+[0m[0mExecuting
+[0m[0m[PRD]: Stopwatch restarted
+[0m[1;32m[PRD]: Stopwatch: 2977 msec
+[PRD]: Order: 2, TPS:33590, uTPS:33590
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 3
+[0m[0mfinalize
+[0m[0mPhysical CPU core: 128, Logic CPU core: 256
+[0m[1;32mExecution Engine Initialized, <PREDA Native Build> v0.0.1, PREDA DevTeam
+[0m[0mRepository: /home/dengliang/.preda/chsimu_repo/native, Module: ./preda_engine (PREDA_NATIVE)
+
+[0m[0m[PRD]: Chain initialized with 8 shard(s), in sync-sharding mode
+[0m[0m[PRD]: 100000 addresses added and evenly distributed in shards
+[0m[0m[PRD]: Compiling 1 contract(s), target=PREDA_NATIVE
+[0m[0m[PRD]: Linking 1 contract(s), target=PREDA_NATIVE
+[0m[1;32m[HIGHLIGHT] Ballot test
+[0m[0mPerparing test transactions
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 1
+[0m[0m[PRD]: Shd#g:	h:3 txn:0/0/2 addr:0
+[0m[0m[PRD]: Shd#0:	h:3 txn:0/0/0 addr:12500
+[0m[0m[PRD]: Shd#1:	h:3 txn:0/0/0 addr:12500
+[0m[0m[PRD]: Shd#2:	h:3 txn:0/0/1 addr:12500
+[0m[0m[PRD]: Shd#3:	h:3 txn:0/0/0 addr:12500
+[0m[0m[PRD]: Shd#4:	h:3 txn:0/0/0 addr:12500
+[0m[0m[PRD]: Shd#5:	h:3 txn:0/0/0 addr:12500
+[0m[0m[PRD]: Shd#6:	h:3 txn:0/0/0 addr:12500
+[0m[0m[PRD]: Shd#7:	h:3 txn:0/0/0 addr:12500
+[0m[0m[PRD]: Total Txn:0/3
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 2
+[0m[0m[PRD]: Shd#g:	h:3 txn:0/0/2 addr:0
+[0m[0m[PRD]: Shd#0:	h:3 txn:12500/0/0 addr:12500
+[0m[0m[PRD]: Shd#1:	h:3 txn:12500/0/0 addr:12500
+[0m[0m[PRD]: Shd#2:	h:3 txn:12500/0/1 addr:12500
+[0m[0m[PRD]: Shd#3:	h:3 txn:12500/0/0 addr:12500
+[0m[0m[PRD]: Shd#4:	h:3 txn:12500/0/0 addr:12500
+[0m[0m[PRD]: Shd#5:	h:3 txn:12500/0/0 addr:12500
+[0m[0m[PRD]: Shd#6:	h:3 txn:12500/0/0 addr:12500
+[0m[0m[PRD]: Shd#7:	h:3 txn:12500/0/0 addr:12500
+[0m[0m[PRD]: Total Txn:100000/3
+[0m[0mExecuting
+[0m[0m[PRD]: Stopwatch restarted
+[0m[1;32m[PRD]: Stopwatch: 1495 msec
+[PRD]: Order: 3, TPS:66889, uTPS:66889
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 3
+[0m[0mfinalize
+[0m[0mPhysical CPU core: 128, Logic CPU core: 256
+[0m[1;32mExecution Engine Initialized, <PREDA Native Build> v0.0.1, PREDA DevTeam
+[0m[0mRepository: /home/dengliang/.preda/chsimu_repo/native, Module: ./preda_engine (PREDA_NATIVE)
+
+[0m[0m[PRD]: Chain initialized with 16 shard(s), in sync-sharding mode
+[0m[0m[PRD]: 100000 addresses added and evenly distributed in shards
+[0m[0m[PRD]: Compiling 1 contract(s), target=PREDA_NATIVE
+[0m[0m[PRD]: Linking 1 contract(s), target=PREDA_NATIVE
+[0m[1;32m[HIGHLIGHT] Ballot test
+[0m[0mPerparing test transactions
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 1
+[0m[0m[PRD]: Shd#g:	h:3 txn:0/0/2 addr:0
+[0m[0m[PRD]: Shd#0:	h:3 txn:0/0/0 addr:6250
+[0m[0m[PRD]: Shd#1:	h:3 txn:0/0/0 addr:6250
+[0m[0m[PRD]: Shd#2:	h:3 txn:0/0/0 addr:6250
+[0m[0m[PRD]: Shd#3:	h:3 txn:0/0/0 addr:6250
+[0m[0m[PRD]: Shd#4:	h:3 txn:0/0/0 addr:6250
+[0m[0m[PRD]: Shd#5:	h:3 txn:0/0/0 addr:6250
+[0m[0m[PRD]: Shd#6:	h:3 txn:0/0/0 addr:6250
+[0m[0m[PRD]: Shd#7:	h:3 txn:0/0/1 addr:6250
+[0m[0m[PRD]: Shd#8:	h:3 txn:0/0/0 addr:6250
+[0m[0m[PRD]: Shd#9:	h:3 txn:0/0/0 addr:6250
+[0m[0m[PRD]: Shd#10:	h:3 txn:0/0/0 addr:6250
+[0m[0m[PRD]: Shd#11:	h:3 txn:0/0/0 addr:6250
+[0m[0m[PRD]: Shd#12:	h:3 txn:0/0/0 addr:6250
+[0m[0m[PRD]: Shd#13:	h:3 txn:0/0/0 addr:6250
+[0m[0m[PRD]: Shd#14:	h:3 txn:0/0/0 addr:6250
+[0m[0m[PRD]: Shd#15:	h:3 txn:0/0/0 addr:6250
+[0m[0m[PRD]: Total Txn:0/3
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 2
+[0m[0m[PRD]: Shd#g:	h:3 txn:0/0/2 addr:0
+[0m[0m[PRD]: Shd#0:	h:3 txn:6250/0/0 addr:6250
+[0m[0m[PRD]: Shd#1:	h:3 txn:6250/0/0 addr:6250
+[0m[0m[PRD]: Shd#2:	h:3 txn:6250/0/0 addr:6250
+[0m[0m[PRD]: Shd#3:	h:3 txn:6250/0/0 addr:6250
+[0m[0m[PRD]: Shd#4:	h:3 txn:6250/0/0 addr:6250
+[0m[0m[PRD]: Shd#5:	h:3 txn:6250/0/0 addr:6250
+[0m[0m[PRD]: Shd#6:	h:3 txn:6250/0/0 addr:6250
+[0m[0m[PRD]: Shd#7:	h:3 txn:6250/0/1 addr:6250
+[0m[0m[PRD]: Shd#8:	h:3 txn:6250/0/0 addr:6250
+[0m[0m[PRD]: Shd#9:	h:3 txn:6250/0/0 addr:6250
+[0m[0m[PRD]: Shd#10:	h:3 txn:6250/0/0 addr:6250
+[0m[0m[PRD]: Shd#11:	h:3 txn:6250/0/0 addr:6250
+[0m[0m[PRD]: Shd#12:	h:3 txn:6250/0/0 addr:6250
+[0m[0m[PRD]: Shd#13:	h:3 txn:6250/0/0 addr:6250
+[0m[0m[PRD]: Shd#14:	h:3 txn:6250/0/0 addr:6250
+[0m[0m[PRD]: Shd#15:	h:3 txn:6250/0/0 addr:6250
+[0m[0m[PRD]: Total Txn:100000/3
+[0m[0mExecuting
+[0m[0m[PRD]: Stopwatch restarted
+[0m[1;32m[PRD]: Stopwatch: 753 msec
+[PRD]: Order: 4, TPS:132802, uTPS:132802
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 3
+[0m[0mfinalize
+[0m[0mPhysical CPU core: 128, Logic CPU core: 256
+[0m[1;32mExecution Engine Initialized, <PREDA Native Build> v0.0.1, PREDA DevTeam
+[0m[0mRepository: /home/dengliang/.preda/chsimu_repo/native, Module: ./preda_engine (PREDA_NATIVE)
+
+[0m[0m[PRD]: Chain initialized with 32 shard(s), in sync-sharding mode
+[0m[0m[PRD]: 100000 addresses added and evenly distributed in shards
+[0m[0m[PRD]: Compiling 1 contract(s), target=PREDA_NATIVE
+[0m[0m[PRD]: Linking 1 contract(s), target=PREDA_NATIVE
+[0m[1;32m[HIGHLIGHT] Ballot test
+[0m[0mPerparing test transactions
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 1
+[0m[0m[PRD]: Shd#g:	h:3 txn:0/0/2 addr:0
+[0m[0m[PRD]: Shd#0:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#1:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#2:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#3:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#4:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#5:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#6:	h:3 txn:0/0/1 addr:3125
+[0m[0m[PRD]: Shd#7:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#8:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#9:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#10:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#11:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#12:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#13:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#14:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#15:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#16:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#17:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#18:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#19:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#20:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#21:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#22:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#23:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#24:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#25:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#26:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#27:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#28:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#29:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#30:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Shd#31:	h:3 txn:0/0/0 addr:3125
+[0m[0m[PRD]: Total Txn:0/3
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 2
+[0m[0m[PRD]: Shd#g:	h:3 txn:0/0/2 addr:0
+[0m[0m[PRD]: Shd#0:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#1:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#2:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#3:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#4:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#5:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#6:	h:3 txn:3125/0/1 addr:3125
+[0m[0m[PRD]: Shd#7:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#8:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#9:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#10:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#11:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#12:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#13:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#14:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#15:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#16:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#17:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#18:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#19:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#20:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#21:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#22:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#23:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#24:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#25:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#26:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#27:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#28:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#29:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#30:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Shd#31:	h:3 txn:3125/0/0 addr:3125
+[0m[0m[PRD]: Total Txn:100000/3
+[0m[0mExecuting
+[0m[0m[PRD]: Stopwatch restarted
+[0m[1;32m[PRD]: Stopwatch: 385 msec
+[PRD]: Order: 5, TPS:259740, uTPS:259740
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 3
+[0m[0mfinalize
+[0m[0mPhysical CPU core: 128, Logic CPU core: 256
+[0m[1;32mExecution Engine Initialized, <PREDA Native Build> v0.0.1, PREDA DevTeam
+[0m[0mRepository: /home/dengliang/.preda/chsimu_repo/native, Module: ./preda_engine (PREDA_NATIVE)
+
+[0m[0m[PRD]: Chain initialized with 64 shard(s), in sync-sharding mode
+[0m[0m[PRD]: 100032 addresses added and evenly distributed in shards
+[0m[0m[PRD]: Compiling 1 contract(s), target=PREDA_NATIVE
+[0m[0m[PRD]: Linking 1 contract(s), target=PREDA_NATIVE
+[0m[1;32m[HIGHLIGHT] Ballot test
+[0m[0mPerparing test transactions
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 1
+[0m[0m[PRD]: Shd#g:	h:3 txn:0/0/2 addr:0
+[0m[0m[PRD]: Shd#0:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#1:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#2:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#3:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#4:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#5:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#6:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#7:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#8:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#9:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#10:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#11:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#12:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#13:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#14:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#15:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#16:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#17:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#18:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#19:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#20:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#21:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#22:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#23:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#24:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#25:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#26:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#27:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#28:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#29:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#30:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#31:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#32:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#33:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#34:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#35:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#36:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#37:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#38:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#39:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#40:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#41:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#42:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#43:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#44:	h:3 txn:0/0/1 addr:1563
+[0m[0m[PRD]: Shd#45:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#46:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#47:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#48:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#49:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#50:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#51:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#52:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#53:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#54:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#55:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#56:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#57:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#58:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#59:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#60:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#61:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#62:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Shd#63:	h:3 txn:0/0/0 addr:1563
+[0m[0m[PRD]: Total Txn:0/3
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 2
+[0m[0m[PRD]: Shd#g:	h:3 txn:0/0/2 addr:0
+[0m[0m[PRD]: Shd#0:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#1:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#2:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#3:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#4:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#5:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#6:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#7:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#8:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#9:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#10:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#11:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#12:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#13:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#14:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#15:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#16:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#17:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#18:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#19:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#20:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#21:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#22:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#23:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#24:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#25:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#26:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#27:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#28:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#29:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#30:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#31:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#32:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#33:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#34:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#35:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#36:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#37:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#38:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#39:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#40:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#41:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#42:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#43:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#44:	h:3 txn:1563/0/1 addr:1563
+[0m[0m[PRD]: Shd#45:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#46:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#47:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#48:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#49:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#50:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#51:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#52:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#53:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#54:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#55:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#56:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#57:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#58:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#59:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#60:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#61:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#62:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Shd#63:	h:3 txn:1563/0/0 addr:1563
+[0m[0m[PRD]: Total Txn:100032/3
+[0m[0mExecuting
+[0m[0m[PRD]: Stopwatch restarted
+[0m[1;32m[PRD]: Stopwatch: 216 msec
+[PRD]: Order: 6, TPS:463111, uTPS:463111
+[0m[1;32m[HIGHLIGHT] Ballot test: Step 3
+[0m[0mfinalize
+[0m[0mPhysical CPU core: 128, Logic CPU core: 256
+[0m[1;32mExecution Engine Initialized, <PREDA Native Build> v0.0.1, PREDA DevTeam
+[0m[0mRepository: /home/dengliang/.preda/chsimu_repo/native, Module: ./preda_engine (PREDA_NATIVE)
+
+
+
+============================== finalize ==============================
+parallel execution tps: [8385,16775,33590,66889,132802,259740,463111]
+speed up: [1.00,2.00,4.00,7.97,15.83,30.97,55.23]

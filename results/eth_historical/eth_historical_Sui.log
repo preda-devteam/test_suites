@@ -1,0 +1,109 @@
+run erc20 replay tasks
+============================== taskset in cpu: (0) ==============================
+Get account from csv, total 59327 accounts
+start batch_create_account_and_gas_by_index time: Instant { tv_sec: 27333405, tv_nsec: 219123189 }
+End batch_create_account_and_gas_by_index, time: Instant { tv_sec: 27333407, tv_nsec: 201723515 }
+batch_create_account_and_gas_by_index finished in 1.982s
+create 59327 accounts and 400001 gas objects, account index len:59327
+Initializing validator
+Generate tx from csv, Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 27333442, tv_nsec: 740150610 }
+End executing tx, time: Instant { tv_sec: 27333504, tv_nsec: 938712125 }
+Execution finished in 62.198s, TPS=1608
+
+
+============================== taskset in cpu: (0,1) ==============================
+Get account from csv, total 59327 accounts
+start batch_create_account_and_gas_by_index time: Instant { tv_sec: 27333512, tv_nsec: 144798480 }
+End batch_create_account_and_gas_by_index, time: Instant { tv_sec: 27333513, tv_nsec: 340689306 }
+batch_create_account_and_gas_by_index finished in 1.196s
+create 59327 accounts and 400001 gas objects, account index len:59327
+Initializing validator
+Generate tx from csv, Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 27333533, tv_nsec: 441739224 }
+End executing tx, time: Instant { tv_sec: 27333565, tv_nsec: 204128119 }
+Execution finished in 31.762s, TPS=3148
+
+
+============================== taskset in cpu: (0,1,2,3) ==============================
+Get account from csv, total 59327 accounts
+start batch_create_account_and_gas_by_index time: Instant { tv_sec: 27333572, tv_nsec: 240298222 }
+End batch_create_account_and_gas_by_index, time: Instant { tv_sec: 27333572, tv_nsec: 969051539 }
+batch_create_account_and_gas_by_index finished in 0.728s
+create 59327 accounts and 400001 gas objects, account index len:59327
+Initializing validator
+Generate tx from csv, Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 27333584, tv_nsec: 821656091 }
+End executing tx, time: Instant { tv_sec: 27333601, tv_nsec: 555087091 }
+Execution finished in 16.733s, TPS=5976
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7) ==============================
+Get account from csv, total 59327 accounts
+start batch_create_account_and_gas_by_index time: Instant { tv_sec: 27333608, tv_nsec: 686912719 }
+End batch_create_account_and_gas_by_index, time: Instant { tv_sec: 27333609, tv_nsec: 236477177 }
+batch_create_account_and_gas_by_index finished in 0.549s
+create 59327 accounts and 400001 gas objects, account index len:59327
+Initializing validator
+Generate tx from csv, Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 27333617, tv_nsec: 191081073 }
+End executing tx, time: Instant { tv_sec: 27333626, tv_nsec: 600753440 }
+Execution finished in 9.409s, TPS=10628
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15) ==============================
+Get account from csv, total 59327 accounts
+start batch_create_account_and_gas_by_index time: Instant { tv_sec: 27333633, tv_nsec: 637554875 }
+End batch_create_account_and_gas_by_index, time: Instant { tv_sec: 27333634, tv_nsec: 122222563 }
+batch_create_account_and_gas_by_index finished in 0.484s
+create 59327 accounts and 400001 gas objects, account index len:59327
+Initializing validator
+Generate tx from csv, Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 27333640, tv_nsec: 127017430 }
+End executing tx, time: Instant { tv_sec: 27333645, tv_nsec: 808425903 }
+Execution finished in 5.681s, TPS=17603
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31) ==============================
+Get account from csv, total 59327 accounts
+start batch_create_account_and_gas_by_index time: Instant { tv_sec: 27333652, tv_nsec: 882106725 }
+End batch_create_account_and_gas_by_index, time: Instant { tv_sec: 27333653, tv_nsec: 351052798 }
+batch_create_account_and_gas_by_index finished in 0.469s
+create 59327 accounts and 400001 gas objects, account index len:59327
+Initializing validator
+Generate tx from csv, Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 27333658, tv_nsec: 515587536 }
+End executing tx, time: Instant { tv_sec: 27333662, tv_nsec: 941787858 }
+Execution finished in 4.426s, TPS=22594
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63) ==============================
+Get account from csv, total 59327 accounts
+start batch_create_account_and_gas_by_index time: Instant { tv_sec: 27333670, tv_nsec: 200934300 }
+End batch_create_account_and_gas_by_index, time: Instant { tv_sec: 27333670, tv_nsec: 691344336 }
+batch_create_account_and_gas_by_index finished in 0.49s
+create 59327 accounts and 400001 gas objects, account index len:59327
+Initializing validator
+Generate tx from csv, Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 27333675, tv_nsec: 924465341 }
+End executing tx, time: Instant { tv_sec: 27333680, tv_nsec: 629246599 }
+Execution finished in 4.704s, TPS=21259
+
+
+============================== finalize ==============================
+parallel execution tps: [1558,3034,5727,10042,16220,20429,19252]
+speed up: [1.00,1.94,3.67,6.44,10.41,13.11,12.35]

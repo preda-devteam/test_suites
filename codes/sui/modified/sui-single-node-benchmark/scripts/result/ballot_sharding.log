@@ -1,0 +1,74 @@
+run ballot sharding tasks
+============================== taskset in cpu: (0) ==============================
+Creating 100001 accounts and 100001 gas objects
+Initializing validator
+Preparing shared objects
+Refreshing gas objects
+Finished preparing shared objects, num: 1
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 1231802, tv_nsec: 658430976 }
+End executing tx, time: Instant { tv_sec: 1231853, tv_nsec: 913249719 }
+Execution finished in 51.254s, TPS=1951
+
+
+============================== taskset in cpu: (0,2) ==============================
+Creating 100001 accounts and 100001 gas objects
+Initializing validator
+Preparing shared objects
+Refreshing gas objects
+Finished preparing shared objects, num: 2
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 1231870, tv_nsec: 733939050 }
+End executing tx, time: Instant { tv_sec: 1231898, tv_nsec: 701350798 }
+Execution finished in 27.967s, TPS=3576
+
+
+============================== taskset in cpu: (0,2,4,6) ==============================
+Creating 100001 accounts and 100001 gas objects
+Initializing validator
+Preparing shared objects
+Refreshing gas objects
+Finished preparing shared objects, num: 4
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 1231909, tv_nsec: 702423706 }
+End executing tx, time: Instant { tv_sec: 1231922, tv_nsec: 561424001 }
+Execution finished in 12.859s, TPS=7777
+
+
+============================== taskset in cpu: (0,2,4,6,8,10,12,14) ==============================
+Creating 100001 accounts and 100001 gas objects
+Initializing validator
+Preparing shared objects
+Refreshing gas objects
+Finished preparing shared objects, num: 8
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 1231930, tv_nsec: 757074138 }
+End executing tx, time: Instant { tv_sec: 1231937, tv_nsec: 441748447 }
+Execution finished in 6.684s, TPS=14961
+
+
+============================== taskset in cpu: (0,2,4,6,8,10,12,14,16,17,18,19,20,21,22,23) ==============================
+Creating 100001 accounts and 100001 gas objects
+Initializing validator
+Preparing shared objects
+Refreshing gas objects
+Finished preparing shared objects, num: 16
+Programmable Move Transaction Generator: Creating 100000 transactions
+Creating transaction certificates
+Started executing 100000 transactions. You can now attach a profiler
+Start executing tx, time: Instant { tv_sec: 1231944, tv_nsec: 685308728 }
+End executing tx, time: Instant { tv_sec: 1231949, tv_nsec: 301020262 }
+Execution finished in 4.615s, TPS=21668
+
+
+============================== finalize ==============================
+parallel execution tps: [1951,3576,7777,14961,21668]
+speed up: [1.00,1.83,3.98,7.66,11.10]

@@ -1,0 +1,21 @@
+random.reseed 88
+
+allocate.address $~addr$
+chain.gaslimit 100000000
+
+chain.deploy @1 Kitty_uint256.prd
+
+KittyBreeding.mint { genes: $random(0, 4294967295)$, gender: true, owner: "$@all$" }
+chain.run 
+
+KittyBreeding.mint { genes: $random(0, 4294967295)$, gender: false, owner: "$@all$" }
+chain.run 
+
+KittyBreeding.breed*$~count$ @random { m: $random(1, ~addr-1)$, s: $random(~addr+1, ~addr*2-1)$, gender: false }
+chain.info 
+
+stopwatch.restart
+chain.run
+stopwatch.report
+chain.info 
+

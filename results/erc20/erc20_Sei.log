@@ -1,0 +1,130 @@
+run erc20 transfer tasks
+============================== taskset in cpu: (0) ==============================
+parallel units:  1
+deploy mytoken contract finished, address:  0xe0dFb47204868c01C499389d39f8897bdFceB825
+mint for all accounts...
+mint finish:  3.740829324s write db:  706.062128ms
+mint for all accounts finish.
+tasks: 1000 elapse: 2.854897887  parallel tps:  350
+tasks: 1000 elapse: 2.361676292  parallel tps:  423
+tasks: 1000 elapse: 2.212198842  parallel tps:  452
+tasks: 1000 elapse: 2.119467763  parallel tps:  471
+tasks: 1000 elapse: 2.018768546  parallel tps:  495
+tasks: 1000 elapse: 2.034694519  parallel tps:  491
+tasks: 1000 elapse: 2.053672656  parallel tps:  486
+tasks: 1000 elapse: 1.982275961  parallel tps:  504
+tasks: 1000 elapse: 1.983373974  parallel tps:  504
+tasks: 1000 elapse: 2.052276827  parallel tps:  487
+
+
+============================== taskset in cpu: (0,1) ==============================
+parallel units:  2
+deploy mytoken contract finished, address:  0x3bA015Bdb49211EE9456f7b2Fa2B1614B0A8aa75
+mint for all accounts...
+mint finish:  3.426892999s write db:  590.549457ms
+mint for all accounts finish.
+tasks: 1000 elapse: 1.6169080519999999  parallel tps:  618
+tasks: 1000 elapse: 1.213231271  parallel tps:  824
+tasks: 1000 elapse: 1.130674176  parallel tps:  884
+tasks: 1000 elapse: 1.056835897  parallel tps:  946
+tasks: 1000 elapse: 1.039292285  parallel tps:  962
+tasks: 1000 elapse: 1.114759279  parallel tps:  897
+tasks: 1000 elapse: 1.088325668  parallel tps:  918
+tasks: 1000 elapse: 1.094406095  parallel tps:  913
+tasks: 1000 elapse: 1.110475535  parallel tps:  900
+tasks: 1000 elapse: 1.11099075  parallel tps:  900
+
+
+============================== taskset in cpu: (0,1,2,3) ==============================
+parallel units:  4
+deploy mytoken contract finished, address:  0x735f62276ECEc519a068eAF0E5B96D846c1870c7
+mint for all accounts...
+mint finish:  3.359928429s write db:  568.462166ms
+mint for all accounts finish.
+tasks: 1000 elapse: 1.055271145  parallel tps:  947
+tasks: 1000 elapse: 0.817208309  parallel tps:  1223
+tasks: 1000 elapse: 0.617953548  parallel tps:  1618
+tasks: 1000 elapse: 0.566326054  parallel tps:  1765
+tasks: 1000 elapse: 0.558197263  parallel tps:  1791
+tasks: 1000 elapse: 0.564250546  parallel tps:  1772
+tasks: 1000 elapse: 0.594084265  parallel tps:  1683
+tasks: 1000 elapse: 0.564270364  parallel tps:  1772
+tasks: 1000 elapse: 0.564352089  parallel tps:  1771
+tasks: 1000 elapse: 0.566194293  parallel tps:  1766
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7) ==============================
+parallel units:  8
+deploy mytoken contract finished, address:  0x9239A6ce94aAccdB349914fcBe2D7B0588c1ca59
+mint for all accounts...
+mint finish:  3.362451595s write db:  571.593747ms
+mint for all accounts finish.
+tasks: 1000 elapse: 0.644032472  parallel tps:  1552
+tasks: 1000 elapse: 0.502054081  parallel tps:  1991
+tasks: 1000 elapse: 0.398875658  parallel tps:  2507
+tasks: 1000 elapse: 0.391768415  parallel tps:  2552
+tasks: 1000 elapse: 0.36894721  parallel tps:  2710
+tasks: 1000 elapse: 0.384399907  parallel tps:  2601
+tasks: 1000 elapse: 0.375044978  parallel tps:  2666
+tasks: 1000 elapse: 0.368113048  parallel tps:  2716
+tasks: 1000 elapse: 0.371774524  parallel tps:  2689
+tasks: 1000 elapse: 0.366665201  parallel tps:  2727
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15) ==============================
+parallel units:  16
+deploy mytoken contract finished, address:  0x745222C5433B0Aa0d55f937328C85314d5205E25
+mint for all accounts...
+mint finish:  3.373339843s write db:  576.604359ms
+mint for all accounts finish.
+tasks: 1000 elapse: 0.518684594  parallel tps:  1927
+tasks: 1000 elapse: 0.345131441  parallel tps:  2897
+tasks: 1000 elapse: 0.326654603  parallel tps:  3061
+tasks: 1000 elapse: 0.250757604  parallel tps:  3987
+tasks: 1000 elapse: 0.257336308  parallel tps:  3885
+tasks: 1000 elapse: 0.259655825  parallel tps:  3851
+tasks: 1000 elapse: 0.270963864  parallel tps:  3690
+tasks: 1000 elapse: 0.256361434  parallel tps:  3900
+tasks: 1000 elapse: 0.238432291  parallel tps:  4194
+tasks: 1000 elapse: 0.260315874  parallel tps:  3841
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31) ==============================
+parallel units:  32
+deploy mytoken contract finished, address:  0x0eCc43257Ce78D2862298c14FE7FF5A96b8c2d6A
+mint for all accounts...
+mint finish:  3.398482815s write db:  594.527529ms
+mint for all accounts finish.
+tasks: 1000 elapse: 0.511978161  parallel tps:  1953
+tasks: 1000 elapse: 0.465507508  parallel tps:  2148
+tasks: 1000 elapse: 0.305593652  parallel tps:  3272
+tasks: 1000 elapse: 0.280166339  parallel tps:  3569
+tasks: 1000 elapse: 0.270392332  parallel tps:  3698
+tasks: 1000 elapse: 0.31070675  parallel tps:  3218
+tasks: 1000 elapse: 0.289275525  parallel tps:  3456
+tasks: 1000 elapse: 0.213686446  parallel tps:  4679
+tasks: 1000 elapse: 0.228344226  parallel tps:  4379
+tasks: 1000 elapse: 0.247703862  parallel tps:  4037
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63) ==============================
+parallel units:  64
+deploy mytoken contract finished, address:  0x08E1B40459518a049E2a94325220dec3A0D83AE8
+mint for all accounts...
+mint finish:  3.453842437s write db:  624.47172ms
+mint for all accounts finish.
+tasks: 1000 elapse: 0.673006589  parallel tps:  1485
+tasks: 1000 elapse: 0.491136204  parallel tps:  2036
+tasks: 1000 elapse: 0.444321607  parallel tps:  2250
+tasks: 1000 elapse: 0.377948167  parallel tps:  2645
+tasks: 1000 elapse: 0.35370012  parallel tps:  2827
+tasks: 1000 elapse: 0.371204116  parallel tps:  2693
+tasks: 1000 elapse: 0.405483108  parallel tps:  2466
+tasks: 1000 elapse: 0.314053397  parallel tps:  3184
+tasks: 1000 elapse: 0.32589206  parallel tps:  3068
+tasks: 1000 elapse: 0.308692871  parallel tps:  3239
+
+
+============================== finalize ==============================
+parallel execution tps: [486,900,1765,2633,3846,3512,2669]
+speed up: [1.00,1.85,3.63,5.41,7.91,7.22,5.49]

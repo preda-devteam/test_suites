@@ -1,0 +1,186 @@
+run erc20 transfer tasks
+============================== taskset in cpu: (0) ==============================
+2024-06-19T11:57:53.582199Z [main] WARN crates/node-resource-metrics/src/lib.rs:47 Failed to register collector: Duplicate metrics collector registration attempted
+2024-06-19T11:57:53.582857Z [main] INFO crates/aptos-push-metrics/src/lib.rs:99 PUSH_METRICS_ENDPOINT env var is not set. Skipping sending metrics.
+2024-06-19T11:57:53.582899Z [main] INFO crates/aptos-push-metrics/src/lib.rs:193 Execution dashboard link: https://aptoslabs.grafana.net/d/execution/execution?from=1718797673582&to=1718798273582&var-Datasource=fHo-R604z&var-metrics_source=All&var-chain_name=block-stm-benchmark&var-cluster=All&var-namespace=1718798273582850919&var-kubernetes_pod_name=All&var-role=All 
+RUN benchmark for: num_shards 1,  concurrency_level_per_shard = 1, num_account = 10000, block_size = 100000
+2024-06-19T11:57:54.618501Z [main] WARN aptos-move/aptos-vm-logging/src/lib.rs:53 [VM] Gas unit error; min 100, submitted 0 {"name":"miscellaneous","txn_idx":0}
+2024-06-19T11:57:54.618735Z [main] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Sequential execution completed. 1 out of 1 txns committed {"approx_output_size":310,"block_gas_limit":1000000000,"block_gas_limit_exceeded":false,"block_output_limit":1000000000000,"block_output_limit_exceeded":false,"effective_block_gas":0}
+Parallel execution starts...
+2024-06-19T11:58:47.315034Z [main] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Sequential execution completed. 100001 out of 100001 txns committed {"approx_output_size":0,"block_gas_limit":0,"block_gas_limit_exceeded":false,"block_output_limit":0,"block_output_limit_exceeded":false,"effective_block_gas":800000}
+Parallel execution finishes, TPS = 2472
+Sequential execution starts...
+2024-06-19T11:59:27.485546Z [main] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Sequential execution completed. 100001 out of 100001 txns committed {"approx_output_size":0,"block_gas_limit":0,"block_gas_limit_exceeded":false,"block_output_limit":0,"block_output_limit_exceeded":false,"effective_block_gas":800000}
+Sequential execution finishes, TPS = 2489
+
+concurrency_level = 1
+
+PARAMS: num_account = 10000, block_size = 100000
+Sequential TPS: [2489]
+Avg Sequential TPS = 2489
+Parallel TPS: [2472]
+Avg Parallel TPS = 2472
+Speed up 0x over sequential
+
+
+
+============================== taskset in cpu: (0,1) ==============================
+2024-06-19T11:59:37.975517Z [main] WARN crates/node-resource-metrics/src/lib.rs:47 Failed to register collector: Duplicate metrics collector registration attempted
+2024-06-19T11:59:37.976177Z [main] INFO crates/aptos-push-metrics/src/lib.rs:99 PUSH_METRICS_ENDPOINT env var is not set. Skipping sending metrics.
+2024-06-19T11:59:37.976217Z [main] INFO crates/aptos-push-metrics/src/lib.rs:193 Execution dashboard link: https://aptoslabs.grafana.net/d/execution/execution?from=1718797777976&to=1718798377976&var-Datasource=fHo-R604z&var-metrics_source=All&var-chain_name=block-stm-benchmark&var-cluster=All&var-namespace=1718798377976171053&var-kubernetes_pod_name=All&var-role=All 
+RUN benchmark for: num_shards 1,  concurrency_level_per_shard = 2, num_account = 10000, block_size = 100000
+2024-06-19T11:59:39.008634Z [main] WARN aptos-move/aptos-vm-logging/src/lib.rs:53 [VM] Gas unit error; min 100, submitted 0 {"name":"miscellaneous","txn_idx":0}
+2024-06-19T11:59:39.008887Z [main] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Sequential execution completed. 1 out of 1 txns committed {"approx_output_size":310,"block_gas_limit":1000000000,"block_gas_limit_exceeded":false,"block_output_limit":1000000000000,"block_output_limit_exceeded":false,"effective_block_gas":0}
+Parallel execution starts...
+2024-06-19T12:00:12.574073Z [par_exec_1] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Parallel execution completed. 100001 out of 100001 txns committed {"approx_output_size":0,"block_gas_limit":0,"block_gas_limit_exceeded":false,"block_output_limit":0,"block_output_limit_exceeded":false,"effective_block_gas":800000}
+execution_total:100048, validation_total:100079, abort:47, suspend:0, avg_suspend_time:NaN us, suspend_time_total:0.00 us
+Parallel execution finishes, TPS = 4697
+Sequential execution starts...
+2024-06-19T12:00:52.700765Z [main] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Sequential execution completed. 100001 out of 100001 txns committed {"approx_output_size":0,"block_gas_limit":0,"block_gas_limit_exceeded":false,"block_output_limit":0,"block_output_limit_exceeded":false,"effective_block_gas":800000}
+Sequential execution finishes, TPS = 2488
+
+concurrency_level = 2
+
+PARAMS: num_account = 10000, block_size = 100000
+Sequential TPS: [2488]
+Avg Sequential TPS = 2488
+Parallel TPS: [4697]
+Avg Parallel TPS = 4697
+Speed up 1x over sequential
+
+
+
+============================== taskset in cpu: (0,1,2,3) ==============================
+2024-06-19T12:01:03.216801Z [main] WARN crates/node-resource-metrics/src/lib.rs:47 Failed to register collector: Duplicate metrics collector registration attempted
+2024-06-19T12:01:03.217419Z [main] INFO crates/aptos-push-metrics/src/lib.rs:99 PUSH_METRICS_ENDPOINT env var is not set. Skipping sending metrics.
+2024-06-19T12:01:03.217461Z [main] INFO crates/aptos-push-metrics/src/lib.rs:193 Execution dashboard link: https://aptoslabs.grafana.net/d/execution/execution?from=1718797863217&to=1718798463217&var-Datasource=fHo-R604z&var-metrics_source=All&var-chain_name=block-stm-benchmark&var-cluster=All&var-namespace=1718798463217413893&var-kubernetes_pod_name=All&var-role=All 
+RUN benchmark for: num_shards 1,  concurrency_level_per_shard = 4, num_account = 10000, block_size = 100000
+2024-06-19T12:01:04.250982Z [main] WARN aptos-move/aptos-vm-logging/src/lib.rs:53 [VM] Gas unit error; min 100, submitted 0 {"name":"miscellaneous","txn_idx":0}
+2024-06-19T12:01:04.251271Z [main] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Sequential execution completed. 1 out of 1 txns committed {"approx_output_size":310,"block_gas_limit":1000000000,"block_gas_limit_exceeded":false,"block_output_limit":1000000000000,"block_output_limit_exceeded":false,"effective_block_gas":0}
+Parallel execution starts...
+2024-06-19T12:01:27.421215Z [par_exec_3] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Parallel execution completed. 100001 out of 100001 txns committed {"approx_output_size":0,"block_gas_limit":0,"block_gas_limit_exceeded":false,"block_output_limit":0,"block_output_limit_exceeded":false,"effective_block_gas":800000}
+execution_total:100109, validation_total:100243, abort:108, suspend:0, avg_suspend_time:NaN us, suspend_time_total:0.00 us
+Parallel execution finishes, TPS = 9209
+Sequential execution starts...
+2024-06-19T12:02:07.753622Z [main] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Sequential execution completed. 100001 out of 100001 txns committed {"approx_output_size":0,"block_gas_limit":0,"block_gas_limit_exceeded":false,"block_output_limit":0,"block_output_limit_exceeded":false,"effective_block_gas":800000}
+Sequential execution finishes, TPS = 2474
+
+concurrency_level = 4
+
+PARAMS: num_account = 10000, block_size = 100000
+Sequential TPS: [2474]
+Avg Sequential TPS = 2474
+Parallel TPS: [9209]
+Avg Parallel TPS = 9209
+Speed up 3x over sequential
+
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7) ==============================
+2024-06-19T12:02:18.215080Z [main] WARN crates/node-resource-metrics/src/lib.rs:47 Failed to register collector: Duplicate metrics collector registration attempted
+2024-06-19T12:02:18.215719Z [main] INFO crates/aptos-push-metrics/src/lib.rs:99 PUSH_METRICS_ENDPOINT env var is not set. Skipping sending metrics.
+2024-06-19T12:02:18.215763Z [main] INFO crates/aptos-push-metrics/src/lib.rs:193 Execution dashboard link: https://aptoslabs.grafana.net/d/execution/execution?from=1718797938215&to=1718798538215&var-Datasource=fHo-R604z&var-metrics_source=All&var-chain_name=block-stm-benchmark&var-cluster=All&var-namespace=1718798538215712875&var-kubernetes_pod_name=All&var-role=All 
+RUN benchmark for: num_shards 1,  concurrency_level_per_shard = 8, num_account = 10000, block_size = 100000
+2024-06-19T12:02:19.252835Z [main] WARN aptos-move/aptos-vm-logging/src/lib.rs:53 [VM] Gas unit error; min 100, submitted 0 {"name":"miscellaneous","txn_idx":0}
+2024-06-19T12:02:19.253099Z [main] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Sequential execution completed. 1 out of 1 txns committed {"approx_output_size":310,"block_gas_limit":1000000000,"block_gas_limit_exceeded":false,"block_output_limit":1000000000000,"block_output_limit_exceeded":false,"effective_block_gas":0}
+Parallel execution starts...
+2024-06-19T12:02:37.353757Z [par_exec_7] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Parallel execution completed. 100001 out of 100001 txns committed {"approx_output_size":0,"block_gas_limit":0,"block_gas_limit_exceeded":false,"block_output_limit":0,"block_output_limit_exceeded":false,"effective_block_gas":800000}
+execution_total:100244, validation_total:101801, abort:243, suspend:1, avg_suspend_time:358.48 us, suspend_time_total:358.48 us
+Parallel execution finishes, TPS = 17424
+Sequential execution starts...
+2024-06-19T12:03:16.988868Z [main] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Sequential execution completed. 100001 out of 100001 txns committed {"approx_output_size":0,"block_gas_limit":0,"block_gas_limit_exceeded":false,"block_output_limit":0,"block_output_limit_exceeded":false,"effective_block_gas":800000}
+Sequential execution finishes, TPS = 2514
+
+concurrency_level = 8
+
+PARAMS: num_account = 10000, block_size = 100000
+Sequential TPS: [2514]
+Avg Sequential TPS = 2514
+Parallel TPS: [17424]
+Avg Parallel TPS = 17424
+Speed up 6x over sequential
+
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15) ==============================
+2024-06-19T12:03:27.500784Z [main] WARN crates/node-resource-metrics/src/lib.rs:47 Failed to register collector: Duplicate metrics collector registration attempted
+2024-06-19T12:03:27.501421Z [main] INFO crates/aptos-push-metrics/src/lib.rs:99 PUSH_METRICS_ENDPOINT env var is not set. Skipping sending metrics.
+2024-06-19T12:03:27.501462Z [main] INFO crates/aptos-push-metrics/src/lib.rs:193 Execution dashboard link: https://aptoslabs.grafana.net/d/execution/execution?from=1718798007501&to=1718798607501&var-Datasource=fHo-R604z&var-metrics_source=All&var-chain_name=block-stm-benchmark&var-cluster=All&var-namespace=1718798607501414621&var-kubernetes_pod_name=All&var-role=All 
+RUN benchmark for: num_shards 1,  concurrency_level_per_shard = 16, num_account = 10000, block_size = 100000
+2024-06-19T12:03:28.541893Z [main] WARN aptos-move/aptos-vm-logging/src/lib.rs:53 [VM] Gas unit error; min 100, submitted 0 {"name":"miscellaneous","txn_idx":0}
+2024-06-19T12:03:28.542165Z [main] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Sequential execution completed. 1 out of 1 txns committed {"approx_output_size":310,"block_gas_limit":1000000000,"block_gas_limit_exceeded":false,"block_output_limit":1000000000000,"block_output_limit_exceeded":false,"effective_block_gas":0}
+Parallel execution starts...
+2024-06-19T12:03:44.103911Z [par_exec_0] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Parallel execution completed. 100001 out of 100001 txns committed {"approx_output_size":0,"block_gas_limit":0,"block_gas_limit_exceeded":false,"block_output_limit":0,"block_output_limit_exceeded":false,"effective_block_gas":800000}
+execution_total:100975, validation_total:103657, abort:974, suspend:3, avg_suspend_time:2127.90 us, suspend_time_total:6383.71 us
+Parallel execution finishes, TPS = 30893
+Sequential execution starts...
+2024-06-19T12:04:24.452623Z [main] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Sequential execution completed. 100001 out of 100001 txns committed {"approx_output_size":0,"block_gas_limit":0,"block_gas_limit_exceeded":false,"block_output_limit":0,"block_output_limit_exceeded":false,"effective_block_gas":800000}
+Sequential execution finishes, TPS = 2463
+
+concurrency_level = 16
+
+PARAMS: num_account = 10000, block_size = 100000
+Sequential TPS: [2463]
+Avg Sequential TPS = 2463
+Parallel TPS: [30893]
+Avg Parallel TPS = 30893
+Speed up 12x over sequential
+
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31) ==============================
+2024-06-19T12:04:34.949712Z [main] WARN crates/node-resource-metrics/src/lib.rs:47 Failed to register collector: Duplicate metrics collector registration attempted
+2024-06-19T12:04:34.950370Z [main] INFO crates/aptos-push-metrics/src/lib.rs:99 PUSH_METRICS_ENDPOINT env var is not set. Skipping sending metrics.
+2024-06-19T12:04:34.950410Z [main] INFO crates/aptos-push-metrics/src/lib.rs:193 Execution dashboard link: https://aptoslabs.grafana.net/d/execution/execution?from=1718798074950&to=1718798674950&var-Datasource=fHo-R604z&var-metrics_source=All&var-chain_name=block-stm-benchmark&var-cluster=All&var-namespace=1718798674950363061&var-kubernetes_pod_name=All&var-role=All 
+RUN benchmark for: num_shards 1,  concurrency_level_per_shard = 32, num_account = 10000, block_size = 100000
+2024-06-19T12:04:35.988396Z [main] WARN aptos-move/aptos-vm-logging/src/lib.rs:53 [VM] Gas unit error; min 100, submitted 0 {"name":"miscellaneous","txn_idx":0}
+2024-06-19T12:04:35.988634Z [main] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Sequential execution completed. 1 out of 1 txns committed {"approx_output_size":310,"block_gas_limit":1000000000,"block_gas_limit_exceeded":false,"block_output_limit":1000000000000,"block_output_limit_exceeded":false,"effective_block_gas":0}
+Parallel execution starts...
+2024-06-19T12:04:50.461423Z [par_exec_8] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Parallel execution completed. 100001 out of 100001 txns committed {"approx_output_size":0,"block_gas_limit":0,"block_gas_limit_exceeded":false,"block_output_limit":0,"block_output_limit_exceeded":false,"effective_block_gas":800000}
+execution_total:103061, validation_total:111291, abort:3060, suspend:29, avg_suspend_time:1761.44 us, suspend_time_total:51081.82 us
+Parallel execution finishes, TPS = 46232
+Sequential execution starts...
+2024-06-19T12:05:30.449428Z [main] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Sequential execution completed. 100001 out of 100001 txns committed {"approx_output_size":0,"block_gas_limit":0,"block_gas_limit_exceeded":false,"block_output_limit":0,"block_output_limit_exceeded":false,"effective_block_gas":800000}
+Sequential execution finishes, TPS = 2473
+
+concurrency_level = 32
+
+PARAMS: num_account = 10000, block_size = 100000
+Sequential TPS: [2473]
+Avg Sequential TPS = 2473
+Parallel TPS: [46232]
+Avg Parallel TPS = 46232
+Speed up 18x over sequential
+
+
+
+============================== taskset in cpu: (0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63) ==============================
+2024-06-19T12:05:41.334781Z [main] WARN crates/node-resource-metrics/src/lib.rs:47 Failed to register collector: Duplicate metrics collector registration attempted
+2024-06-19T12:05:41.335394Z [main] INFO crates/aptos-push-metrics/src/lib.rs:99 PUSH_METRICS_ENDPOINT env var is not set. Skipping sending metrics.
+2024-06-19T12:05:41.335436Z [main] INFO crates/aptos-push-metrics/src/lib.rs:193 Execution dashboard link: https://aptoslabs.grafana.net/d/execution/execution?from=1718798141335&to=1718798741335&var-Datasource=fHo-R604z&var-metrics_source=All&var-chain_name=block-stm-benchmark&var-cluster=All&var-namespace=1718798741335387684&var-kubernetes_pod_name=All&var-role=All 
+RUN benchmark for: num_shards 1,  concurrency_level_per_shard = 64, num_account = 10000, block_size = 100000
+2024-06-19T12:05:42.385470Z [main] WARN aptos-move/aptos-vm-logging/src/lib.rs:53 [VM] Gas unit error; min 100, submitted 0 {"name":"miscellaneous","txn_idx":0}
+2024-06-19T12:05:42.385757Z [main] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Sequential execution completed. 1 out of 1 txns committed {"approx_output_size":310,"block_gas_limit":1000000000,"block_gas_limit_exceeded":false,"block_output_limit":1000000000000,"block_output_limit_exceeded":false,"effective_block_gas":0}
+Parallel execution starts...
+2024-06-19T12:05:57.915581Z [par_exec_14] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Parallel execution completed. 100001 out of 100001 txns committed {"approx_output_size":0,"block_gas_limit":0,"block_gas_limit_exceeded":false,"block_output_limit":0,"block_output_limit_exceeded":false,"effective_block_gas":800000}
+execution_total:105641, validation_total:124356, abort:5640, suspend:98, avg_suspend_time:990.76 us, suspend_time_total:97094.54 us
+Parallel execution finishes, TPS = 30883
+Sequential execution starts...
+2024-06-19T12:06:37.793781Z [main] INFO aptos-move/block-executor/src/limit_processor.rs:211 [BlockSTM]: Sequential execution completed. 100001 out of 100001 txns committed {"approx_output_size":0,"block_gas_limit":0,"block_gas_limit_exceeded":false,"block_output_limit":0,"block_output_limit_exceeded":false,"effective_block_gas":800000}
+Sequential execution finishes, TPS = 2459
+
+concurrency_level = 64
+
+PARAMS: num_account = 10000, block_size = 100000
+Sequential TPS: [2459]
+Avg Sequential TPS = 2459
+Parallel TPS: [30883]
+Avg Parallel TPS = 30883
+Speed up 12x over sequential
+
+
+
+============================== finalize ==============================
+parallel execution tps: [2472,4697,9209,17424,30893,46232,30883]
+speed up: [1.00,1.90,3.72,7.04,12.49,18.70,12.49]
+sequential execution tps: [2489,2488,2474,2514,2463,2473,2459]
