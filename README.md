@@ -32,8 +32,9 @@ The ERC20 contract in Solidity is designed for token transfer. It features a con
 
 The experimental results illustrate the following TPS and relative speedup figures:
 
- ![erc20_tps_line](https://github.com/user-attachments/assets/c5e6ca76-9a67-4f73-b6f9-e574f89471a2)
-![erc20_speed_up 2](https://github.com/user-attachments/assets/79e4bf36-0d20-4af9-8662-65ef9d633a7a)
+![erc20_tps_line](https://github.com/user-attachments/assets/e98147c1-5ab8-4c9e-acc9-bafd18ef7016)
+![erc20_speed_up 2](https://github.com/user-attachments/assets/bca2f9f9-8bf0-48fd-a881-65d263a78590)
+
 
 *TPS and Scalability Breakdown and Comparison*
 
@@ -53,8 +54,8 @@ Both throughput numbers and scalability ratios decreased in Sui, Aptos and Sei s
 
 The experimental results are demonstrated as follows:
 
-![eth_historical_tps_line](https://github.com/user-attachments/assets/2ab9c3df-a9a1-488e-ab1c-311681c7f392)
-![eth_historical_speed_up 2](https://github.com/user-attachments/assets/43b32443-d8f8-4f49-bdb5-b41688547257)
+![eth_historical_tps_line](https://github.com/user-attachments/assets/9444b817-4ac0-4457-b201-6ed80948d498)
+![eth_historical_speed_up 2](https://github.com/user-attachments/assets/f6445461-43fa-45a1-86b6-a44a3ad7b4e8)
 
 
 *TPS and Scalability Breakdown and Comparison*
@@ -80,9 +81,8 @@ For Crystality and PREDA, the parallel implementation is much simpler. It only n
 
 The Voting smart contract demonstrates how the PREDA model can simplify the expression of the parallel voting algorithm and how the data partitioning, relay, and execution mechanisms in Crystality and PREDA can avoid the overhead in the optimistic parallelization method (Aptos) and pessimistic parallelization method (Sui) in both TPS numbers and relative speedups.
 
-![ballot_tps_line](https://github.com/user-attachments/assets/61879d9e-5eb1-45ea-a89e-02885ce5da3f)
-![ballot_speed_up 2](https://github.com/user-attachments/assets/0cd03d91-fe81-4dbd-8eb3-b06714e7ebe5)
-
+![ballot_tps_line](https://github.com/user-attachments/assets/56eecb18-cea5-4ceb-ab10-cc1cb03841ae)
+![ballot_speed_up 2](https://github.com/user-attachments/assets/9fc31937-d323-4248-a60f-f75e2523b2c1)
 
 *TPS and Scalability Breakdown and Comparison*
 
@@ -106,8 +106,9 @@ In contrast, in the PREDA model, since the parallel granularity is broken down i
 
 The experimental results illustrate the following TPS and relative speedup figures:
 
-![AirDrop_Tps](https://github.com/user-attachments/assets/925e7ce8-d2a9-4ed7-828b-71da0d43f3f6)
-![AirDrop_Speedup](https://github.com/user-attachments/assets/a29f8948-a786-468d-9f03-ef908817d60e)
+![AirDrop_Tps](https://github.com/user-attachments/assets/c24c9e62-b3ae-4343-a026-4e4c05989d86)
+![AirDrop_Speedup](https://github.com/user-attachments/assets/95fd1cf8-4b1c-4bec-b10e-e3147b5f33dd)
+
 
 *TPS and Scalability Breakdown and Comparison*
 
@@ -127,9 +128,8 @@ This contract, a popular game contract on Ethereum, involves breeding digital ca
 
 The experimental results illustrate the following TPS and relative speedup figures:
 
-![kitty_tps_line](https://github.com/user-attachments/assets/7e6f21fc-6b91-4452-961f-cf338e02b5f0)
-![kitty_speed_up 2](https://github.com/user-attachments/assets/122f792b-34b6-4ec6-9738-5653c7c8018c)
-
+![kitty_tps_line](https://github.com/user-attachments/assets/82498d78-0cdb-4cde-8b34-e5841f908155)
+![kitty_speed_up 2](https://github.com/user-attachments/assets/0da76059-b658-4872-ba9e-7bd22c07df41)
 
 *TPS and Scalability Breakdown and Comparison*
 
@@ -147,8 +147,8 @@ The experimental results illustrate the following TPS and relative speedup figur
 
 In this game contract on Ethereum, users compete to mark coordinates on a map. This smart contract is used to illustrate the flexibility of the PREDA model and Crystality. Other than partitioning contract states by address, programmers can customize the partitioning key, e.g., from address type to uint32 type in this case.
 
-![million_pixel_tps_line](https://github.com/user-attachments/assets/f145b29b-bd79-4f77-992e-1f937d0fff6b)
-![million_pixel_speed_up 2](https://github.com/user-attachments/assets/8bb176f0-f379-4c8b-aa41-7d32d9eb851d)
+![million_pixel_tps_line](https://github.com/user-attachments/assets/de09f85a-5f0d-484b-8ac1-a7bd7b1031ed)
+![million_pixel_speed_up 2](https://github.com/user-attachments/assets/386924c9-87fe-48c3-8c4a-6142adb004a2)
 
 
 *TPS and Scalability Breakdown and Comparison*
